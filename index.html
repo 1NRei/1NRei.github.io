@@ -917,6 +917,7 @@ let S;
 try { S = Object.assign(DEF(), JSON.parse(localStorage.getItem('litmatch-proto') || '{}')); } catch(e) { S = DEF(); }
 delete S.week; delete S.plus;
 if (!['English','Русский'].includes(S.lang)) S.lang = 'English';
+S.goal = Number.isFinite(Number(S.goal)) ? Math.max(5,Math.min(60,Math.round(Number(S.goal)/5)*5)) : 20;
 const save = () => { try { localStorage.setItem('litmatch-proto', JSON.stringify(S)); } catch(e) {} };
 
 /* ================= stats (all derived from S.log) ================= */
@@ -1062,7 +1063,14 @@ def('signup', {label:'Sign up', html:(p={}) => {
 }});
 
 /* ---------- First launch: language & goal, then favourite genres ---------- */
-const GOALS = [[10,'10 minutes','Small, easy, every day'], [20,'20 minutes','A little time, a lasting habit'], [30,'30 minutes','A chapter a day keeps the world away']];
+const GOALS = [[5,'5 minutes','A small daily habit'],[15,'15 minutes','Time for a few pages'],[30,'30 minutes','A longer reading session']];
+function goalPicker(){
+  const custom=F.goalCustom || !GOALS.some(([m])=>m===S.goal);
+  return `<div class="ob-goals">${GOALS.map(([m,t,d])=>`<button class="ob-goal ${!custom&&S.goal===m?'on':''}" aria-pressed="${!custom&&S.goal===m}" data-act="pickGoal" data-arg="${m}"><i class="mk"></i><div><b>${t}</b><span>${d}</span></div></button>`).join('')}
+    <button class="ob-goal ${custom?'on':''}" aria-pressed="${!!custom}" data-act="customGoal"><i class="mk"></i><div><b>Other goal</b><span>5–60 minutes · 5-minute steps</span></div></button></div>
+    ${custom?`<div class="slider" style="margin-top:12px"><span class="muted" style="font-size:12px">5</span><input type="range" min="5" max="60" step="5" value="${S.goal}" data-input="goal" aria-label="Daily reading goal" style="--p:${(S.goal-5)/55*100}%"><span class="muted" style="font-size:12px">60</span></div>`:''}
+    <p class="note" id="goalSummary" aria-live="polite">${S.goal} minutes a day</p>`;
+}
 def('onboard', {label:'First launch', html:() => {
   const step = F.ob || 0, picked = F.obCats || [];
   const dots = `<div class="qdots ob-dots">${[0,1].map(i => `<i class="${i<=step?'on':''}"></i>`).join('')}</div>`;
@@ -1073,7 +1081,7 @@ def('onboard', {label:'First launch', html:() => {
     <div class="sec">App language</div>
     ${seg('lang', [['English','English'], ['Русский','Русский']])}
     <div class="sec">How much do you want to read a day?</div>
-    <div class="ob-goals">${GOALS.map(([m,t,d]) => `<button class="ob-goal ${S.goal===m?'on':''}" data-act="set" data-arg="goal:${m}"><i class="mk"></i><div><b>${t}</b><span>${d}</span></div></button>`).join('')}</div>
+    ${goalPicker()}
     <p class="note muted">You can change both later in Settings.</p>
     <div style="flex:1;min-height:24px"></div>
     <button class="btn primary" data-act="obNext">Continue</button>
@@ -1489,8 +1497,7 @@ def('terms', {label:'Terms of Use', html:() => legal('Terms of Use', [
 
 def('readingPrefs', {label:'Reading preferences', html:() => `${nav('Reading preferences')}<div class="scroll">
   <p class="lead">Make room for reading, your way.</p>
-  <div class="sec" style="margin-top:4px">Daily reading goal</div>${seg('goal',[[10,'10 min'],[20,'20 min'],[30,'30 min']])}
-  <p class="note">${{10:'10 minutes a day. Small, easy, every day.',20:'20 minutes a day. A little time, a lasting habit.',30:'30 minutes a day. A chapter a day keeps the world away.'}[S.goal]}</p>
+  <div class="sec" style="margin-top:4px">Daily reading goal</div>${goalPicker()}
   <div class="sec">Reading progress</div>
   <div class="group">${row({t:'Chapter time left',s:'Show time remaining as you read',tog:'chapterTime',static:true})}${row({t:'Book progress',s:'Show percentage completed',tog:'bookProgress',static:true})}</div>
   <div class="sec">Reading behavior</div>
@@ -1753,6 +1760,8 @@ function pwCheck(){
   document.getElementById('pwBtn').disabled = !(r.len && r.mix && r.match && cur.value);
 }
 const A = {
+  pickGoal(value){ const minutes=Number(value); if(!GOALS.some(([m])=>m===minutes))return; S.goal=minutes;F.goalCustom=false;save();refresh(); },
+  customGoal(){ F.goalCustom=true;refresh(); },
   railMove(direction,el){ const rail=el.closest('.book-rail').querySelector('.hrow');rail.scrollBy({left:Number(direction)*Math.max(112,rail.clientWidth-24),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}); },
   confirmAdult(){ if(!F.age18 || !pendingAdult) return; const {id,next}=pendingAdult; adultAccess.add(id); pendingAdult=null; closeSheet(); next(); },
   cancelAdult(){ pendingAdult=null; F.age18=false; closeSheet(); },
@@ -1915,6 +1924,7 @@ const A = {
 };
 
 const INPUT = {
+  goal(value,el){ S.goal=Math.max(5,Math.min(60,Math.round(Number(value)/5)*5));save();el.style.setProperty('--p',(S.goal-5)/55*100+'%');const summary=document.getElementById('goalSummary');if(summary)summary.textContent=tr(`${S.goal} minutes a day`); },
   age18(_,el){ F.age18=el.checked; const button=document.getElementById('ageContinue'); if(button)button.disabled=!F.age18; },
   homeQ(v){ F.homeQ = v; refresh(); }, dQ(v){ F.dQ = v; refresh(); }, libQ(v){ F.libQ = v; refresh(); }, helpQ(v){ F.helpQ = v; refresh(); },
   su_name(v){ F.su_name = v; }, su_email(v){ F.su_email = v; }, 'su-pw'(v){ F['su-pw'] = v; },
@@ -2182,6 +2192,8 @@ const ruN = (n, one, few, many) => { n = Math.abs(n) % 100; const d = n % 10; re
 const CAT_RU = {All:'Все', Biography:'Биография', Fanfiction:'Фанфики', 'Self-Help':'Саморазвитие', Science:'Наука', Classics:'Классика', Fantasy:'Фэнтези', Thriller:'Триллер', Poetry:'Поэзия'};
 const cats = s => s.split(' · ').map(c => CAT_RU[c] || c).join(' · ');
 const RU = {
+  '5 minutes':'5 минут', '15 minutes':'15 минут', 'A small daily habit':'Небольшая ежедневная привычка', 'Time for a few pages':'Время для нескольких страниц', 'A longer reading session':'Для более долгого чтения',
+  'Other goal':'Другая цель', '5–60 minutes · 5-minute steps':'От 5 до 60 минут · шаг 5 минут',
   'Book recommendations':'Рекомендации книг', 'Previous books':'Предыдущие книги', 'Next books':'Следующие книги',
   '18+ · Confirm your age':'18+ · Подтвердите возраст',
   'This book is intended for readers aged 18 and over. Confirm your age to continue.':'Эта книга предназначена для читателей от 18 лет. Подтвердите возраст, чтобы продолжить.',
