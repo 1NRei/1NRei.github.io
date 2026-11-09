@@ -87,7 +87,6 @@ h2.h{font:500 22px/1.2 var(--sans);margin:22px 0 12px}
 .group{background:var(--card);border-radius:16px;overflow:hidden}
 .row{display:flex;align-items:center;gap:14px;padding:13px 16px;width:100%;text-align:left;background:none;border:0;cursor:pointer;min-height:58px;transition:background .15s}
 .row:hover{background:var(--hover)}
-.scrolling .scroll > *, .scrolling .page > *{pointer-events:none}
 .row:active{background:var(--press)}
 .row .tx{flex:1;min-width:0}
 .row .t{font-size:15.5px;font-weight:500;line-height:1.3}
@@ -222,10 +221,18 @@ input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;bac
 .cr-card .ds{font-size:11.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:13;-webkit-box-orient:vertical;overflow:hidden}
 .cr-card .pbar{height:3px;background:var(--track);border-radius:2px;margin-top:10px;overflow:hidden}
 .cr-card .pbar i{display:block;height:100%;background:var(--ink)}
-.hrow{display:flex;gap:14px;overflow-x:auto;scrollbar-width:none;padding:12px;background:var(--card);border-radius:4px}
+.hrow{display:flex;align-items:flex-start;gap:14px;overflow-x:auto;scrollbar-width:none;padding:12px;background:var(--card);border-radius:4px;scroll-snap-type:x proximity;scroll-padding:12px;overscroll-behavior-x:contain}
 .hrow::-webkit-scrollbar{display:none}
-.hrow .it{flex:none;width:98px;text-align:left;cursor:pointer;background:none;border:0;padding:0}
+.hrow .it{flex:none;width:98px;text-align:left;cursor:pointer;background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:flex-start;scroll-snap-align:start}
 .hrow .it .cover{width:98px;height:150px}
+.hrow img{user-select:none;-webkit-user-drag:none}
+.hrow.dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.hrow.dragging .it{cursor:grabbing}
+.rail-controls{display:flex;justify-content:flex-end;gap:8px;margin-top:8px}
+.rail-controls[hidden]{display:none}
+.rail-controls button{width:36px;height:36px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--card);cursor:pointer}
+.rail-controls button:disabled{opacity:.3;cursor:default}
+.rail-controls button:first-child .ico{transform:rotate(180deg)}
 .hrow .it .nm{font-size:12px;margin-top:6px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .empty{padding:28px 12px;text-align:center;color:var(--muted);font-size:13.5px;width:100%}
 .sechead{display:flex;justify-content:space-between;align-items:baseline}
@@ -1533,8 +1540,10 @@ function render(dir='none'){
   const old = views.lastElementChild;
   applyTheme();
   const el = build(entry);
+  enhanceRails(el);
   l10n(el); l10n(tabbar);
   views.appendChild(el);
+  el.querySelectorAll('.hrow').forEach(updateRail);
   tabbar.classList.toggle('hide', !scr.tabs);
   tabbar.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.tab === entry.name));
   movePill(scr.tabs && !!tabbar.dataset.prev && tabbar.dataset.prev !== entry.name); tabbar.dataset.prev = scr.tabs ? entry.name : '';
@@ -1544,6 +1553,22 @@ function render(dir='none'){
   if (old) old.remove();   // navigation is static: screens swap instantly, no slide/fade
   scr.mount && scr.mount(entry.arg);
   updateMap();
+}
+function updateRail(rail){
+  const controls=rail.parentElement.querySelector('.rail-controls'); if(!controls)return;
+  const max=rail.scrollWidth-rail.clientWidth;
+  controls.hidden=max<=1;
+  controls.querySelector('[data-arg="-1"]').disabled=rail.scrollLeft<=1;
+  controls.querySelector('[data-arg="1"]').disabled=rail.scrollLeft>=max-1;
+}
+function enhanceRails(root){
+  root.querySelectorAll('.hrow').forEach(rail=>{
+    const wrap=document.createElement('div');wrap.className='book-rail';rail.before(wrap);wrap.append(rail);
+    rail.tabIndex=0;rail.setAttribute('role','group');rail.setAttribute('aria-label',tr('Book recommendations'));
+    const controls=document.createElement('div');controls.className='rail-controls';
+    controls.innerHTML=`<button data-act="railMove" data-arg="-1" aria-label="Previous books">${ic('chev','sm')}</button><button data-act="railMove" data-arg="1" aria-label="Next books">${ic('chev','sm')}</button>`;
+    wrap.append(controls);
+  });
 }
 /* the pill follows the active tab: it eases from where it was toward the button,
    tracking the button live because tab widths animate at the same time */
@@ -1728,6 +1753,7 @@ function pwCheck(){
   document.getElementById('pwBtn').disabled = !(r.len && r.mix && r.match && cur.value);
 }
 const A = {
+  railMove(direction,el){ const rail=el.closest('.book-rail').querySelector('.hrow');rail.scrollBy({left:Number(direction)*Math.max(112,rail.clientWidth-24),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}); },
   confirmAdult(){ if(!F.age18 || !pendingAdult) return; const {id,next}=pendingAdult; adultAccess.add(id); pendingAdult=null; closeSheet(); next(); },
   cancelAdult(){ pendingAdult=null; F.age18=false; closeSheet(); },
   toast: a => toast(a),
@@ -1914,6 +1940,22 @@ setInterval(() => {
 addEventListener('pagehide', save);
 
 /* ================= events ================= */
+let railDrag=null,railDragEnd=0;
+app.addEventListener('scroll',e=>{if(e.target.matches?.('.hrow'))updateRail(e.target)},true);
+app.addEventListener('pointerdown',e=>{
+  const rail=e.target.closest('.hrow');if(!rail||e.pointerType!=='mouse'||e.button!==0)return;
+  railDrag={rail,x:e.clientX,left:rail.scrollLeft,moved:false};
+});
+app.addEventListener('pointermove',e=>{
+  if(!railDrag)return;const d=railDrag,dx=(e.clientX-d.x)/(app.getBoundingClientRect().width/app.offsetWidth);
+  if(!d.moved&&Math.abs(dx)<8)return;
+  if(!d.moved){d.moved=true;d.rail.classList.add('dragging');d.rail.setPointerCapture(e.pointerId)}
+  d.rail.scrollLeft=d.left-dx;e.preventDefault();
+});
+const endRailDrag=()=>{if(!railDrag)return;if(railDrag.moved)railDragEnd=performance.now();railDrag.rail.classList.remove('dragging');railDrag=null};
+app.addEventListener('pointerup',endRailDrag);app.addEventListener('pointercancel',endRailDrag);
+app.addEventListener('click',e=>{if(railDragEnd&&performance.now()-railDragEnd<250){e.preventDefault();e.stopImmediatePropagation()}},true);
+app.addEventListener('keydown',e=>{if(!e.target.matches('.hrow')||!['ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();e.target.scrollBy({left:e.key==='ArrowRight'?112:-112})});
 app.addEventListener('click', e => {
   if (F.dict && !e.target.closest('#dict, #selbar')) { closeDict(); if (e.target.closest('#rpage') && !(S.tapTranslate && wordAt(e.clientX, e.clientY))) return; }
   if (e.target.closest('[data-close]')) { closeSheet(); return; }
@@ -2140,6 +2182,7 @@ const ruN = (n, one, few, many) => { n = Math.abs(n) % 100; const d = n % 10; re
 const CAT_RU = {All:'Все', Biography:'Биография', Fanfiction:'Фанфики', 'Self-Help':'Саморазвитие', Science:'Наука', Classics:'Классика', Fantasy:'Фэнтези', Thriller:'Триллер', Poetry:'Поэзия'};
 const cats = s => s.split(' · ').map(c => CAT_RU[c] || c).join(' · ');
 const RU = {
+  'Book recommendations':'Рекомендации книг', 'Previous books':'Предыдущие книги', 'Next books':'Следующие книги',
   '18+ · Confirm your age':'18+ · Подтвердите возраст',
   'This book is intended for readers aged 18 and over. Confirm your age to continue.':'Эта книга предназначена для читателей от 18 лет. Подтвердите возраст, чтобы продолжить.',
   'I confirm that I am 18 or older':'Подтверждаю, что мне исполнилось 18 лет',
