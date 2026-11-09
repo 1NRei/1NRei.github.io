@@ -853,7 +853,6 @@ const DICT = {
 const lemmas = w => [...new Set([w.replace(/ies$/,'y'), w.replace(/s$/,''), w.replace(/es$/,''), w.replace(/ied$/,'y'), w.replace(/ed$/,''), w.replace(/d$/,''),
   w.replace(/ing$/,''), w.replace(/ing$/,'e'), w.replace(/ly$/,''), w.replace(/ise$/,'ize')])].filter(x => x && x !== w && x.length > 2);
 const wordFrom = (k, extra) => ({...DICT[k], ipa:DICT[k].uk||'', lang:/[а-я]/i.test(k)?'ru':'en', ...extra});
-const MOOD = {cozy:['women','pride','fairy','onegin','gatsby'], dark:['lambs','dracula','frank','anna'], smart:['feynman','frank','language','anna'], magic:['frei','fairy','language','dracula']};
 const textOf = id => TEXT[id] || SAMPLE(id);
 
 const FONTS = {serif:"'Source Serif 4',Georgia,serif", sans:"Inter,system-ui,sans-serif", mono:"'IBM Plex Mono',ui-monospace,monospace"};
@@ -1666,26 +1665,27 @@ const SHEETS = {
 };
 const APPEAR = {system:['System','Match your iPhone setting'], light:['Light','Warm paper tones'], dark:['Dark','Easy on the eyes at night']};
 const QUIZ = [
-  {q:'What mood are you in?', o:[['','Cozy & calm','cozy'],['','Dark & tense','dark'],['','Curious & smart','smart'],['','Something magical','magic']]},
-  {q:'Which of these would you open first?', sub:'Don’t think too long. Just pick the one that pulls you in.', books:['pride','lambs','feynman','frei']},
-  {q:'What do you read for?', o:[['','A gripping plot','plot'],['','Characters & feelings','feel'],['','Ideas & real stories','ideas'],['','Beautiful language','lang']]},
-  {q:'How much time do you have?', o:[['','A quiet evening','short'],['','A weekend','mid'],['','A long journey','long']]},
-  {q:'Classic or modern?', o:[['','Timeless classic','classic'],['','Modern voice','modern'],['','Surprise me','any']]},
+  {q:'How old are you?', o:[['','Under 14','under14'],['','14–17 years','teen'],['','18–24 years','youngAdult'],['','25 years and older','adult'],['','Prefer not to say','any']]},
+  {q:'What is your favourite genre?', o:[...CATS.slice(1).map(c=>['',c,c]),['','No genre preference','any']]},
+  {q:'How long should the book be?', o:[['','Short · up to 250 pages','short'],['','Medium · 251–450 pages','mid'],['','Long · over 450 pages','long'],['','Any length','any']]},
+  {q:'What is your main reading goal?', o:[['','Read for pleasure','pleasure'],['','Learn something new','learn'],['','Study literature','study'],['','Read poetry','poetry']]},
+  {q:'Which publication period do you prefer?', o:[['','Classics · before 1950','classic'],['','Modern books · 1950 onwards','modern'],['','Any publication period','any']]},
 ];
-const FOCUS = {plot:{Thriller:2,Fantasy:2}, feel:{Classics:2,Poetry:1}, ideas:{Science:2,Biography:2,'Self-Help':2}, lang:{Poetry:3,Classics:1}};
-/* category weights the quiz answers imply (also fed into long-term taste) */
-function quizWeights([, pick, focus]){
-  const w = {}; if (BOOKS[pick]) BOOKS[pick].cats.forEach(c => w[c] = (w[c]||0) + 2);
-  Object.entries(FOCUS[focus]||{}).forEach(([c,v]) => w[c] = (w[c]||0) + v);
+const FOCUS = {pleasure:{Fantasy:2,Thriller:2,Classics:1,Fanfiction:2}, learn:{Science:3,Biography:3,'Self-Help':3}, study:{Classics:3,Poetry:1}, poetry:{Poetry:3}};
+// Editorial audience preferences, not publisher age ratings. Genre remains the strongest signal.
+const AGE_PICKS = {under14:['women','fairy'], teen:['women','pride','gatsby','frank','fairy'], youngAdult:['gatsby','frei','language','feynman'], adult:['anna','pride','lambs','feynman']};
+/* Only genre and reading purpose feed into long-term category preferences. */
+function quizWeights([, genre, , purpose]){
+  const w = CATS.includes(genre) && genre !== 'All' ? {[genre]:10} : {};
+  Object.entries(FOCUS[purpose]||{}).forEach(([c,v]) => w[c] = (w[c]||0) + v);
   return w;
 }
 function quizRank(ans){
-  const [mood, pick, , len, era] = ans, w = quizWeights(ans), t = taste();
+  const [age, , len, , era] = ans, w = quizWeights(ans), t = taste();
   const score = id => { const b = BOOKS[id]; let s = b.cats.reduce((a,c)=>a+(w[c]||0),0);
-    if ((MOOD[mood]||[]).includes(id)) s += 3;
-    if (len==='short' ? b.pages<300 : len==='mid' ? b.pages>=300 && b.pages<=450 : b.pages>450) s += 2;
+    if ((AGE_PICKS[age]||[]).includes(id)) s += 1.5;
+    if ((len==='short' && b.pages<=250) || (len==='mid' && b.pages>250 && b.pages<=450) || (len==='long' && b.pages>450)) s += 4;
     if (era==='classic' ? b.year<1950 : era==='modern' ? b.year>=1950 : false) s += 2;
-    if (id===pick) s -= 1;                       // they already know this one; prefer a neighbour
     if (S.finished.includes(id)) s -= 4;
     s += b.cats.reduce((a,c)=>a+Math.max(-1, Math.min(1, (t[c]||0)/10)), 0) * .5;
     return s + b.rate/10; };
@@ -2197,11 +2197,11 @@ const RU = {
   'Skip':'Пропустить', 'Details':'Подробнее', 'SAVE':'ХОЧУ', 'SKIP':'МИМО', 'That’s everything for now':'На сегодня это всё', 'Open library':'Открыть библиотеку', 'Start over':'Начать заново',
   // quiz
   'Find your book':'Подбор книги', 'Your match':'Ваша книга', 'Also a good fit':'Тоже подойдут', 'Open book':'Открыть книгу', 'Try again':'Пройти заново', '← Back':'← Назад',
-  'What mood are you in?':'Какое у вас настроение?', 'Cozy & calm':'Уютное и спокойное', 'Dark & tense':'Мрачное и напряжённое', 'Curious & smart':'Любопытное', 'Something magical':'Хочется волшебства',
-  'Which of these would you open first?':'Какую из этих книг вы открыли бы первой?', 'Don’t think too long. Just pick the one that pulls you in.':'Не думайте долго — выберите ту, что цепляет.',
-  'What do you read for?':'Зачем вы читаете?', 'A gripping plot':'Ради захватывающего сюжета', 'Characters & feelings':'Ради героев и чувств', 'Ideas & real stories':'Ради идей и реальных историй', 'Beautiful language':'Ради красивого языка',
-  'How much time do you have?':'Сколько у вас времени?', 'A quiet evening':'Тихий вечер', 'A weekend':'Выходные', 'A long journey':'Долгая поездка',
-  'Classic or modern?':'Классика или современность?', 'Timeless classic':'Вечная классика', 'Modern voice':'Современный голос', 'Surprise me':'Удивите меня',
+  'How old are you?':'Сколько вам лет?', 'Under 14':'До 14 лет', '14–17 years':'14–17 лет', '18–24 years':'18–24 года', '25 years and older':'25 лет и старше', 'Prefer not to say':'Не хочу указывать',
+  'What is your favourite genre?':'Какой ваш любимый жанр?', 'No genre preference':'Нет предпочтений по жанру',
+  'How long should the book be?':'Какой объём книги вам подходит?', 'Short · up to 250 pages':'Небольшая · до 250 страниц', 'Medium · 251–450 pages':'Средняя · 251–450 страниц', 'Long · over 450 pages':'Большая · более 450 страниц', 'Any length':'Любой объём',
+  'What is your main reading goal?':'Для чего вы хотите читать?', 'Read for pleasure':'Для отдыха и удовольствия', 'Learn something new':'Чтобы узнать новое', 'Study literature':'Для изучения литературы', 'Read poetry':'Чтобы читать стихи',
+  'Which publication period do you prefer?':'Книги какого периода вы предпочитаете?', 'Classics · before 1950':'Классика · до 1950 года', 'Modern books · 1950 onwards':'Современные · с 1950 года', 'Any publication period':'Любой период',
   // settings
   'Account settings':'Настройки аккаунта', 'Edit profile':'Редактировать профиль', 'Account':'Аккаунт', 'Name, email and avatar':'Имя, почта и аватар', 'Appearance':'Оформление',
   'App language':'Язык приложения', 'Reading preferences':'Настройки чтения', 'Daily reading goal':'Цель на день', 'Reading progress':'Прогресс чтения', 'Show time left in each chapter':'Показывать, сколько осталось до конца главы',
