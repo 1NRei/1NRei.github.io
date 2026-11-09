@@ -611,6 +611,29 @@ input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;bac
 .vw .cx{font:400 13px/1.45 var(--serif);color:var(--muted);margin-top:8px;cursor:pointer}
 .vw .cx mark{background:rgba(123,111,196,.25);color:inherit;border-radius:2px}
 .qres .score{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+
+/* Keep flexible content inside the phone viewport. */
+.searchbar .search{min-width:0}
+.grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid .it{min-width:0}
+.grid .cover{width:100%!important;height:auto!important}
+.cont .cc{width:min(330px,calc(100vw - 48px))}
+.cont .cc .tx{min-width:0}
+.dict{width:min(330px,calc(100% - 24px));max-height:calc(100% - 24px);display:flex;flex-direction:column}
+.dict .db{min-height:0;flex:1}
+.dict .df{flex-wrap:wrap;flex-shrink:0}
+.selbar{max-width:calc(100% - 16px);flex-wrap:wrap;justify-content:center}
+@media (max-width:500px){
+  .screen{--top:max(12px,env(safe-area-inset-top))}
+  .tabbar{bottom:max(16px,env(safe-area-inset-bottom));max-width:calc(100% - 16px)}
+  .tabbar button{min-width:44px;padding:0 10px}
+  .tabbar button.on{padding:0 12px}
+  .sheet{padding-bottom:max(24px,env(safe-area-inset-bottom))}
+  .reader .rbot{padding-bottom:max(24px,env(safe-area-inset-bottom))}
+  .inp,.search input{font-size:16px}
+  .reader .rbot .row2{gap:12px;flex-wrap:wrap}
+  .seg button{min-width:0;overflow-wrap:anywhere}
+}
 </style>
 </head>
 <body>
@@ -1919,7 +1942,8 @@ document.addEventListener('selectionchange', () => {
   l10n(selbar);
   const r = rng.getBoundingClientRect(), a = app.getBoundingClientRect(), k = a.width / app.offsetWidth;
   F.sel.rect = {x:(r.left + r.width/2 - a.left)/k, top:(r.top - a.top)/k, bottom:(r.bottom - a.top)/k};
-  selbar.style.left = Math.min(Math.max(F.sel.rect.x, 170), app.offsetWidth - 170) + 'px';
+  const half = selbar.offsetWidth / 2;
+  selbar.style.left = Math.min(Math.max(F.sel.rect.x, half + 8), app.offsetWidth - half - 8) + 'px';
   selbar.style.top = Math.max((r.top - a.top)/k - 10, 110) + 'px';
   selbar.classList.add('show');
 });
@@ -2011,8 +2035,8 @@ function renderDict(){
 function placeDict(){
   const rc = F.dict.sel.rect || {x:app.offsetWidth/2, top:300, bottom:320}, h = dictEl.offsetHeight, H = app.offsetHeight;
   const below = rc.bottom + 12 + h < H - 40;
-  dictEl.style.left = Math.min(Math.max(rc.x - 165, 12), app.offsetWidth - 342) + 'px';
-  dictEl.style.top = (below ? rc.bottom + 12 : Math.max(64, rc.top - 12 - h)) + 'px';
+  dictEl.style.left = Math.max(12, Math.min(rc.x - dictEl.offsetWidth / 2, app.offsetWidth - dictEl.offsetWidth - 12)) + 'px';
+  dictEl.style.top = Math.max(12, Math.min(below ? rc.bottom + 12 : Math.max(64, rc.top - 12 - h), H - h - 12)) + 'px';
 }
 function closeDict(){ dictEl.classList.remove('show'); F.dict = null; try { CSS.highlights && CSS.highlights.delete('tapword'); } catch(e) {} }
 /* the word under a point in the reader text, or null when the point is on whitespace or margins */
