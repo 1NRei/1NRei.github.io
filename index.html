@@ -188,6 +188,11 @@ input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;bac
 /* covers */
 .cover{position:relative;border-radius:4px;overflow:hidden;background:var(--card2);box-shadow:0 1px 2px rgba(30,16,9,.18),0 4px 12px rgba(30,16,9,.08);flex:none;cursor:pointer;display:block;border:0;padding:0}
 .cover img{width:100%;height:100%;object-fit:cover;display:block}
+.age-badge{position:absolute;right:5px;bottom:5px;padding:3px 5px;border-radius:5px;background:#fffdf8;color:#1e1009;font:700 11px/1.2 var(--sans);box-shadow:0 1px 5px #0004}
+.age-badge.adult{background:#1e1009;color:#fffdf8}
+.age-confirm{display:flex;align-items:center;gap:12px;font-size:15px;line-height:1.5;margin:20px 0;cursor:pointer}
+.age-confirm input{width:22px;height:22px;flex:none;accent-color:var(--ink)}
+.sheet .age-disclaimer{font-size:12px;line-height:1.5;color:var(--muted);margin:16px 0 0}
 .cover .gen{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:10% 10%;color:#F4EFE6;text-align:left}
 .cover .gen b{font:500 1em/1.1 var(--serif)}
 .cover .gen i{font-style:normal;font-size:.62em;opacity:.8;letter-spacing:.04em;text-transform:uppercase}
@@ -755,6 +760,9 @@ const BOOKS = {
     d:'A young scientist creates life, and then flees from what he has made.'},
 };
 const CATS = ['All','Biography','Fanfiction','Self-Help','Science','Classics','Fantasy','Thriller','Poetry'];
+// Catalog labels for this prototype; production ratings must match the licensed edition.
+const BOOK_AGES = {onegin:12,lambs:18,pride:16,language:16,frei:16,women:12,feynman:16,fairy:16,gatsby:16,dracula:16,anna:16,frank:16};
+Object.entries(BOOKS).forEach(([id,book])=>book.age=BOOK_AGES[id]);
 
 const TEXT = {
   onegin:{verse:true, pages:[
@@ -990,7 +998,7 @@ function cover(id, w, h, attrs='') {
   const b = BOOKS[id];
   const style = `style="width:${w}px;height:${h}px;${IMG[id]?'':`background:${b.color||'#3b2a20'};font-size:${Math.round(w/6.5)}px`}"`;
   const inner = IMG[id] ? `<img src="${IMG[id]}" alt="${esc(b.t)}">` : `<div class="gen"><b>${esc(b.t)}</b><i>${esc(b.a)}</i></div>`;
-  return `<span class="cover" ${style} ${attrs}>${inner}</span>`;
+  return `<span class="cover" ${style} ${attrs} aria-label="${esc(b.t)} · ${b.age}+">${inner}${w>=60?`<span class="age-badge ${b.age===18?'adult':''}">${b.age}+</span>`:''}</span>`;
 }
 const row = o => {
   const tag = 'div', role = o.static ? '' : 'role="button" tabindex="0"';
@@ -1189,7 +1197,7 @@ def('book', {label:'Book details', html:(id) => {
   const nn = S.notes.filter(n=>n.book===id).length, nb = S.bookmarks.filter(x=>x.book===id).length, cs = chapters(id);
   return nav('') + `<div class="scroll">
     <div class="bd-top">${cover(id,150,230)}<h2>${esc(b.t)}</h2><div class="au">${esc(b.a)}</div>
-    <div class="tags">${b.cats.map(c=>`<span>${c}</span>`).join('')}</div></div>
+    <div class="tags"><span>${b.age}+</span>${b.cats.map(c=>`<span>${c}</span>`).join('')}</div></div>
     <div class="meta"><div><b>${b.rate} ★</b><small>Rating</small></div><div><b>${b.pages}</b><small>Pages</small></div><div><b>${b.year}</b><small>Published</small></div></div>
     <div class="bd-actions">
       <button class="btn primary" data-act="read" data-arg="${id}">${ic('book')} ${sh==='done'?'Read again':p?`Continue · ${p}%`:'Start reading'}</button>
@@ -1571,7 +1579,7 @@ function refresh(){
   const nsc = views.lastElementChild.querySelector('.scroll, .page'); if (nsc) nsc.scrollTop = st;
   if (focusId) { const f = document.getElementById(focusId); if (f) { f.focus(); try{ f.setSelectionRange(caret,caret); }catch(e){} } }
 }
-function go(name, arg){ closeSheet(); F.dlAll=false; F.dx=0; if(name==='reader'){ F.page = F.jumpTo ?? startPage(arg); delete F.jumpTo; F.chromeOff = false; F.tocTab = 'toc'; } stack.push({name, arg}); render('fwd'); }
+function go(name, arg){ if (['book','reader'].includes(name) && requireAdult(arg,()=>go(name,arg))) return; closeSheet(); F.dlAll=false; F.dx=0; if(name==='reader'){ F.page = F.jumpTo ?? startPage(arg); delete F.jumpTo; F.chromeOff = false; F.tocTab = 'toc'; } stack.push({name, arg}); render('fwd'); }
 function back(){ closeSheet(); if (stack.length>1) { stack.pop(); render('back'); } }
 function reset(name, arg){ closeSheet(); stack = [{name, arg}]; render('fade'); }
 function tab(name){ if (curEntry().name===name && stack.length===1) { const s=views.lastElementChild.querySelector('.scroll'); s && s.scrollTo({top:0}); return; } closeSheet(); stack=[{name}]; render('tab'); }
@@ -1586,6 +1594,10 @@ let toastT;
 function toast(msg){ const t = document.getElementById('toast'); t.textContent = tr(msg); t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove('show'), 2400); }
 
 const SHEETS = {
+  ageGate: () => sh('18+ · Confirm your age', `<p>This book is intended for readers aged 18 and over. Confirm your age to continue.</p>
+    <label class="age-confirm"><input type="checkbox" data-input="age18" ${F.age18?'checked':''}><span>I confirm that I am 18 or older</span></label>
+    <div class="stack"><button class="btn primary" id="ageContinue" data-act="confirmAdult" ${F.age18?'':'disabled'}>Confirm and open</button><button class="btn outline" data-act="cancelAdult">Cancel</button></div>
+    <p class="age-disclaimer">LitMatch is not responsible for minors accessing 18+ materials by providing false age information.</p>`),
   avatarSheet: () => sh('Change avatar', `<p>Choose a photo, or keep your initials.</p><div class="group">
     ${row({icon:'image',t:'Choose from Photos',act:'pick',arg:'filePick'})}${row({icon:'camera',t:'Take a photo',act:'pick',arg:'fileCam'})}
     ${(S.user.photo||IMG.avatar)?row({t:'Use current photo',act:'useAvatar',arg:'photo',check:S.user.avatar==='photo'}):''}
@@ -1664,6 +1676,15 @@ const SHEETS = {
   },
 };
 const APPEAR = {system:['System','Match your iPhone setting'], light:['Light','Warm paper tones'], dark:['Dark','Easy on the eyes at night']};
+// Self-declaration is kept in memory per book and resets when the page reloads.
+const adultAccess = new Set();
+let pendingAdult = null;
+function requireAdult(id, next){
+  if (BOOKS[id]?.age !== 18 || adultAccess.has(id)) return false;
+  pendingAdult = {id,next}; F.age18 = false; showSheet('ageGate');
+  setTimeout(()=>{if(sheetName==='ageGate')sheet.querySelector('input')?.focus()},0);
+  return true;
+}
 const QUIZ = [
   {q:'How old are you?', o:[['','Under 14','under14'],['','14–17 years','teen'],['','18–24 years','youngAdult'],['','25 years and older','adult'],['','Prefer not to say','any']]},
   {q:'What is your favourite genre?', o:[...CATS.slice(1).map(c=>['',c,c]),['','No genre preference','any']]},
@@ -1707,6 +1728,8 @@ function pwCheck(){
   document.getElementById('pwBtn').disabled = !(r.len && r.mix && r.match && cur.value);
 }
 const A = {
+  confirmAdult(){ if(!F.age18 || !pendingAdult) return; const {id,next}=pendingAdult; adultAccess.add(id); pendingAdult=null; closeSheet(); next(); },
+  cancelAdult(){ pendingAdult=null; F.age18=false; closeSheet(); },
   toast: a => toast(a),
   set(a){ const i=a.indexOf(':'), k=a.slice(0,i), v=a.slice(i+1); S[k] = isNaN(+v) || v==='' ? v : +v; save(); refresh(); rerenderSheet(); },
   setClose(a){ A.set(a); setTimeout(closeSheet, 180); },
@@ -1742,7 +1765,7 @@ const A = {
   dcat(c){ F.dQ = ''; F.dcat = F.dcat === c ? null : c; if (curEntry().name !== 'match') { stack = [{name:'match'}]; render('tab'); } else { refresh(); views.lastElementChild.querySelector('.scroll')?.scrollTo({top:0}); } },
   pickGenre(c){ A.dcat(c); },
   clearQ(k){ F[k] = ''; refresh(); document.getElementById(k)?.focus(); },
-  read(id){ if (S.finished.includes(id)) { setShelf(id, 'reading'); S.progress[id] = 1; save(); }
+  read(id){ if(requireAdult(id,()=>A.read(id))) return; if (S.finished.includes(id)) { setShelf(id, 'reading'); S.progress[id] = 1; save(); }
     else if (!S.continue.includes(id)) { setShelf(id, 'reading'); }
     go('reader', id); },
   shelfBtn(id){ if (!shelfOf(id)) { setShelf(id, 'want'); refresh(); return toast('Added to Want to read'); } F.shelfId = id; showSheet('shelfSheet'); },
@@ -1774,11 +1797,12 @@ const A = {
   },
   tocSheet(){ F.tocTab = F.tocTab || 'toc'; showSheet('tocSheet'); },
   tocTab(k){ F.tocTab = k; rerenderSheet(); },
-  bookToc(id){ A.read(id); setTimeout(() => A.tocSheet(), 380); },
+  bookToc(id){ if(requireAdult(id,()=>A.bookToc(id))) return; A.read(id); setTimeout(() => A.tocSheet(), 380); },
   gotoPage(a){ const p = +String(a).split(':').pop(), id = curBook(), n = textOf(id).pages.length;
     closeSheet(); F.page = p; F.dx = 0; S.progress[id] = Math.max(S.progress[id]||0, Math.round((p+1)/n*100)); save(); refresh();
     if (S.pageTurn==='Scroll') scrollToPage(p); },
   openAt(a){ const [id, p] = a.split(':');
+    if(requireAdult(id,()=>A.openAt(a))) return;
     if (curEntry().name==='reader' && curBook()===id) return A.gotoPage(p);
     if (shelfOf(id) !== 'reading') setShelf(id, 'reading');
     F.jumpTo = +p; go('reader', id); },
@@ -1820,7 +1844,7 @@ const A = {
   textSheet(){ showSheet('textSheet'); },
   fav(id){ const i = S.favorites.indexOf(id); i<0 ? S.favorites.unshift(id) : S.favorites.splice(i,1); save(); refresh(); toast(i<0 ? 'Added to favorites' : 'Removed from favorites'); },
   saveBook(id){ const i = S.saved.indexOf(id); if (i<0) { S.saved.unshift(id); S.savedDates[id]='Today'; } else S.saved.splice(i,1); save(); refresh(); toast(i<0 ? 'Saved to your library' : 'Removed from library'); },
-  dl(id){ if (S.downloads.includes(id)) { A.rmDl(id); return; } toast(`Downloading ${BOOKS[id].t}…`); setTimeout(()=>{ S.downloads.push(id); save(); if (curEntry().name==='book') refresh(); toast('Downloaded. Ready to read offline.'); }, 900); },
+  dl(id){ if(requireAdult(id,()=>A.dl(id))) return; if (S.downloads.includes(id)) { A.rmDl(id); return; } toast(`Downloading ${BOOKS[id].t}…`); setTimeout(()=>{ S.downloads.push(id); save(); if (curEntry().name==='book') refresh(); toast('Downloaded. Ready to read offline.'); }, 900); },
   rmDl(id){ S.downloads = S.downloads.filter(x=>x!==id); save(); refresh(); toast(`Removed ${BOOKS[id].t} (${BOOKS[id].mb} MB)`); },
   dlAll(){ F.dlAll = !F.dlAll; refresh(); },
   rmAllSheet(){ showSheet('rmAllSheet'); },
@@ -1865,6 +1889,7 @@ const A = {
 };
 
 const INPUT = {
+  age18(_,el){ F.age18=el.checked; const button=document.getElementById('ageContinue'); if(button)button.disabled=!F.age18; },
   homeQ(v){ F.homeQ = v; refresh(); }, dQ(v){ F.dQ = v; refresh(); }, libQ(v){ F.libQ = v; refresh(); }, helpQ(v){ F.helpQ = v; refresh(); },
   su_name(v){ F.su_name = v; }, su_email(v){ F.su_email = v; }, 'su-pw'(v){ F['su-pw'] = v; },
   ep_name(v){ F.ep_name = v; }, ep_email(v){ F.ep_email = v; }, msg(v){ F.msg = v; },
@@ -2115,6 +2140,11 @@ const ruN = (n, one, few, many) => { n = Math.abs(n) % 100; const d = n % 10; re
 const CAT_RU = {All:'Все', Biography:'Биография', Fanfiction:'Фанфики', 'Self-Help':'Саморазвитие', Science:'Наука', Classics:'Классика', Fantasy:'Фэнтези', Thriller:'Триллер', Poetry:'Поэзия'};
 const cats = s => s.split(' · ').map(c => CAT_RU[c] || c).join(' · ');
 const RU = {
+  '18+ · Confirm your age':'18+ · Подтвердите возраст',
+  'This book is intended for readers aged 18 and over. Confirm your age to continue.':'Эта книга предназначена для читателей от 18 лет. Подтвердите возраст, чтобы продолжить.',
+  'I confirm that I am 18 or older':'Подтверждаю, что мне исполнилось 18 лет',
+  'Confirm and open':'Подтвердить и открыть',
+  'LitMatch is not responsible for minors accessing 18+ materials by providing false age information.':'Администрация LitMatch не несёт ответственности за доступ несовершеннолетних к материалам 18+ при указании недостоверного возраста.',
   ...CAT_RU,
   // tabs & common
   'Home':'Главная', 'Library':'Библиотека', 'Profile':'Профиль', 'Match':'Подбор', 'Back':'Назад', 'Close':'Закрыть', 'Cancel':'Отмена', 'Done':'Готово',
@@ -2360,6 +2390,8 @@ const MAP = [
 const PARENT = {settings:'profile',editProfile:'settings',font:'settings',readingPrefs:'settings',sync:'settings',downloads:'settings',notifications:'settings',privacy:'settings',password:'privacy',deleteAccount:'privacy',help:'settings',terms:'settings',policy:'settings',book:'home',reader:'home',achievements:'library',swipe:'match'};
 const SHEET_HOST = {quiz:'home',appearSheet:'settings',avatarSheet:'editProfile',langSheet:'settings',themeSheet:'font',logoutSheet:'settings',delFinal:'deleteAccount'};
 function jump(key){
+  const [target,bookId]=key.split(':');
+  if(['book','reader'].includes(target) && requireAdult(bookId,()=>jump(key))) return;
   F = {}; closeSheet();
   if (key[0]==='@') { const s = key.slice(1); jump(SHEET_HOST[s]); setTimeout(()=> s==='quiz' ? A.quiz() : s==='langSheet' ? A.langSheet() : showSheet(s), 60); return; }
   const [name, arg] = key.split(':');
