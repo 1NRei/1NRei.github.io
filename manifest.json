@@ -1,0 +1,4259 @@
+{
+  "updatedDate": "2026-11-10",
+  "stage": 5,
+  "works": 250,
+  "versions": 500,
+  "agePolicy": "Preliminary LitMatch editorial guidance, not formal classification of these editions.",
+  "books": [
+    {
+      "id": "LM-001",
+      "titleRu": "Анна Каренина",
+      "titleEn": "Anna Karenina",
+      "author": "Лев Толстой",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 239,
+      "enChapters": 239,
+      "ruWords": 271604,
+      "enWords": 358072
+    },
+    {
+      "id": "LM-002",
+      "titleRu": "Ассирийский царь Асархадон",
+      "titleEn": "Esarhaddon, King of Assyria",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1421,
+      "enWords": 2262
+    },
+    {
+      "id": "LM-003",
+      "titleRu": "Война и мир",
+      "titleEn": "War and Peace",
+      "author": "Лев Толстой",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 360,
+      "enChapters": 375,
+      "ruWords": 450223,
+      "enWords": 570876
+    },
+    {
+      "id": "LM-004",
+      "titleRu": "Воскресение",
+      "titleEn": "Resurrection",
+      "author": "Лев Толстой",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 130,
+      "enChapters": 129,
+      "ruWords": 137086,
+      "enWords": 175071
+    },
+    {
+      "id": "LM-005",
+      "titleRu": "Вражье лепко, а божье крепко",
+      "titleEn": "Hatred is Sweet, but God is Strong",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 668,
+      "enWords": 1005
+    },
+    {
+      "id": "LM-006",
+      "titleRu": "Где любовь, там и Бог",
+      "titleEn": "Where Love Is, God Is",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3401,
+      "enWords": 4987
+    },
+    {
+      "id": "LM-007",
+      "titleRu": "Два гусара",
+      "titleEn": "Two Hussars",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 16,
+      "enChapters": 16,
+      "ruWords": 17236,
+      "enWords": 23681
+    },
+    {
+      "id": "LM-008",
+      "titleRu": "Два старика",
+      "titleEn": "Two Old Men",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 12,
+      "enChapters": 12,
+      "ruWords": 5604,
+      "enWords": 8995
+    },
+    {
+      "id": "LM-009",
+      "titleRu": "Девчонки умнее стариков",
+      "titleEn": "Little Girls Wiser Than Men",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 6,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 484,
+      "enWords": 763
+    },
+    {
+      "id": "LM-010",
+      "titleRu": "Для чего люди одурманиваются?",
+      "titleEn": "Why Do Men Stupefy Themselves?",
+      "author": "Лев Толстой",
+      "genre": "Очерк / публицистика",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 6,
+      "enChapters": 6,
+      "ruWords": 5253,
+      "enWords": 6612
+    },
+    {
+      "id": "LM-011",
+      "titleRu": "Дорого стоит",
+      "titleEn": "Too Dear!",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1134,
+      "enWords": 1881
+    },
+    {
+      "id": "LM-012",
+      "titleRu": "Дьявол",
+      "titleEn": "The Devil",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Сексуальные отношения и трагическая развязка.",
+        "en": "Sexual relationships and a tragic ending."
+      },
+      "ruChapters": 22,
+      "enChapters": 22,
+      "ruWords": 14237,
+      "enWords": 18604
+    },
+    {
+      "id": "LM-013",
+      "titleRu": "Записки маркёра",
+      "titleEn": "Recollections of a Billiard-marker",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Самоубийство и азартные игры.",
+        "en": "Suicide and gambling."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4874,
+      "enWords": 7032
+    },
+    {
+      "id": "LM-014",
+      "titleRu": "Зерно с куриное яйцо",
+      "titleEn": "A Grain as Big as a Hen's Egg",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 6,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 698,
+      "enWords": 997
+    },
+    {
+      "id": "LM-015",
+      "titleRu": "Ильяс",
+      "titleEn": "Ilyás",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1254,
+      "enWords": 1779
+    },
+    {
+      "id": "LM-016",
+      "titleRu": "Кавказский пленник",
+      "titleEn": "The Captive in the Caucasus",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 6,
+      "enChapters": 6,
+      "ruWords": 6593,
+      "enWords": 11394
+    },
+    {
+      "id": "LM-017",
+      "titleRu": "Казаки",
+      "titleEn": "The Cossacks",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 42,
+      "enChapters": 42,
+      "ruWords": 45596,
+      "enWords": 62532
+    },
+    {
+      "id": "LM-018",
+      "titleRu": "Как чертенок краюшку выкупал",
+      "titleEn": "How the Little Demon Earned his Stolen Crust of Bread",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 855,
+      "enWords": 1379
+    },
+    {
+      "id": "LM-019",
+      "titleRu": "Кающийся грешник",
+      "titleEn": "The Penitent Sinner",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 699,
+      "enWords": 973
+    },
+    {
+      "id": "LM-020",
+      "titleRu": "Кому у кого учиться писать, крестьянским ребятам у нас или нам у крестьянских ребят?",
+      "titleEn": "Who should learn Writing of whom; Peasant Children of us, or we of Peasant Children?",
+      "author": "Лев Толстой",
+      "genre": "Очерк / публицистика",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 8250,
+      "enWords": 11358
+    },
+    {
+      "id": "LM-021",
+      "titleRu": "Крейцерова соната",
+      "titleEn": "The Kreutzer Sonata",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Сексуальные отношения и подробное описание убийства.",
+        "en": "Sexual relationships and a detailed account of murder."
+      },
+      "ruChapters": 28,
+      "enChapters": 28,
+      "ruWords": 25459,
+      "enWords": 33375
+    },
+    {
+      "id": "LM-022",
+      "titleRu": "Крестник",
+      "titleEn": "The Godfather",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 13,
+      "enChapters": 13,
+      "ruWords": 4230,
+      "enWords": 7021
+    },
+    {
+      "id": "LM-023",
+      "titleRu": "Люцерн",
+      "titleEn": "Lucerne",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 7727,
+      "enWords": 10497
+    },
+    {
+      "id": "LM-024",
+      "titleRu": "Метель",
+      "titleEn": "The Snowstorm",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 11,
+      "enChapters": 11,
+      "ruWords": 8552,
+      "enWords": 12972
+    },
+    {
+      "id": "LM-025",
+      "titleRu": "Много ли человеку земли нужно",
+      "titleEn": "How Much Land Does a Man Need?",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 9,
+      "enChapters": 9,
+      "ruWords": 3690,
+      "enWords": 6131
+    },
+    {
+      "id": "LM-026",
+      "titleRu": "Одумайтесь",
+      "titleEn": "Bethink Yourselves!",
+      "author": "Лев Толстой",
+      "genre": "Очерк / публицистика",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 11,
+      "enChapters": 13,
+      "ruWords": 16647,
+      "enWords": 13859
+    },
+    {
+      "id": "LM-027",
+      "titleRu": "Отрочество",
+      "titleEn": "Boyhood",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 27,
+      "enChapters": 27,
+      "ruWords": 23187,
+      "enWords": 28912
+    },
+    {
+      "id": "LM-028",
+      "titleRu": "Работник Емельян и пустой барабан",
+      "titleEn": "The Empty Drum",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2162,
+      "enWords": 3196
+    },
+    {
+      "id": "LM-029",
+      "titleRu": "Рубка леса",
+      "titleEn": "The Cutting of the Forest",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 13,
+      "enChapters": 13,
+      "ruWords": 10702,
+      "enWords": 14398
+    },
+    {
+      "id": "LM-030",
+      "titleRu": "Свечка",
+      "titleEn": "The Candle",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2203,
+      "enWords": 3620
+    },
+    {
+      "id": "LM-031",
+      "titleRu": "Семейное счастие",
+      "titleEn": "Family Happiness",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 9,
+      "enChapters": 9,
+      "ruWords": 27588,
+      "enWords": 34386
+    },
+    {
+      "id": "LM-032",
+      "titleRu": "Сказка об Иване-дураке",
+      "titleEn": "The Story of Ivan the Fool",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 12,
+      "enChapters": 12,
+      "ruWords": 6771,
+      "enWords": 11223
+    },
+    {
+      "id": "LM-033",
+      "titleRu": "Смерть Ивана Ильича",
+      "titleEn": "The Death of Ivan Il'ich",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 12,
+      "enChapters": 12,
+      "ruWords": 17405,
+      "enWords": 24292
+    },
+    {
+      "id": "LM-034",
+      "titleRu": "Стыдно",
+      "titleEn": "Shame!",
+      "author": "Лев Толстой",
+      "genre": "Очерк / публицистика",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1636,
+      "enWords": 2110
+    },
+    {
+      "id": "LM-035",
+      "titleRu": "Суратская кофейная",
+      "titleEn": "The Coffee-House of Surat",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2242,
+      "enWords": 2840
+    },
+    {
+      "id": "LM-036",
+      "titleRu": "Три смерти",
+      "titleEn": "Three Deaths",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 3700,
+      "enWords": 5558
+    },
+    {
+      "id": "LM-037",
+      "titleRu": "Три старца",
+      "titleEn": "The Three Hermits",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1771,
+      "enWords": 2656
+    },
+    {
+      "id": "LM-038",
+      "titleRu": "Упустишь огонь — не потушишь",
+      "titleEn": "A Lost Opportunity",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4203,
+      "enWords": 7792
+    },
+    {
+      "id": "LM-039",
+      "titleRu": "Утро помещика",
+      "titleEn": "A Morning of a Landed Proprietor",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 20,
+      "enChapters": 20,
+      "ruWords": 15664,
+      "enWords": 20722
+    },
+    {
+      "id": "LM-040",
+      "titleRu": "Хозяин и работник",
+      "titleEn": "Master and Man",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 10,
+      "enChapters": 9,
+      "ruWords": 14259,
+      "enWords": 21796
+    },
+    {
+      "id": "LM-041",
+      "titleRu": "Чем люди живы",
+      "titleEn": "What Men Live By",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 12,
+      "enChapters": 12,
+      "ruWords": 5723,
+      "enWords": 8324
+    },
+    {
+      "id": "LM-042",
+      "titleRu": "Что я видел во сне",
+      "titleEn": "My Dream",
+      "author": "Лев Толстой",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 3,
+      "enChapters": 2,
+      "ruWords": 3898,
+      "enWords": 4504
+    },
+    {
+      "id": "LM-043",
+      "titleRu": "Юность",
+      "titleEn": "Youth",
+      "author": "Лев Толстой",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 45,
+      "enChapters": 45,
+      "ruWords": 49961,
+      "enWords": 63171
+    },
+    {
+      "id": "LM-044",
+      "titleRu": "Белые ночи",
+      "titleEn": "White Nights",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 6,
+      "enChapters": 6,
+      "ruWords": 16862,
+      "enWords": 20253
+    },
+    {
+      "id": "LM-045",
+      "titleRu": "Братья Карамазовы",
+      "titleEn": "The Brothers Karamazov",
+      "author": "Фёдор Достоевский",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 104,
+      "enChapters": 115,
+      "ruWords": 297102,
+      "enWords": 357193
+    },
+    {
+      "id": "LM-046",
+      "titleRu": "Господин Прохарчин",
+      "titleEn": "Mr. Prohartchin",
+      "author": "Фёдор Достоевский",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 10114,
+      "enWords": 13183
+    },
+    {
+      "id": "LM-047",
+      "titleRu": "Ёлка и свадьба",
+      "titleEn": "A Christmas Tree and a Wedding",
+      "author": "Фёдор Достоевский",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2319,
+      "enWords": 3053
+    },
+    {
+      "id": "LM-048",
+      "titleRu": "Записки из подполья",
+      "titleEn": "Notes from Underground",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 22,
+      "enChapters": 21,
+      "ruWords": 35382,
+      "enWords": 44511
+    },
+    {
+      "id": "LM-049",
+      "titleRu": "Игрок",
+      "titleEn": "The Gambler",
+      "author": "Фёдор Достоевский",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 17,
+      "enChapters": 17,
+      "ruWords": 45215,
+      "enWords": 56815
+    },
+    {
+      "id": "LM-050",
+      "titleRu": "Маленький герой",
+      "titleEn": "A Little Hero",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 12354,
+      "enWords": 15066
+    },
+    {
+      "id": "LM-051",
+      "titleRu": "Ползунков",
+      "titleEn": "Polzunkov",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4522,
+      "enWords": 6138
+    },
+    {
+      "id": "LM-052",
+      "titleRu": "Преступление и наказание",
+      "titleEn": "Crime and Punishment",
+      "author": "Фёдор Достоевский",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 41,
+      "enChapters": 41,
+      "ruWords": 173011,
+      "enWords": 207948
+    },
+    {
+      "id": "LM-053",
+      "titleRu": "Слабое сердце",
+      "titleEn": "A Faint Heart",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 13273,
+      "enWords": 17479
+    },
+    {
+      "id": "LM-054",
+      "titleRu": "Сон смешного человека",
+      "titleEn": "The Dream of a Ridiculous Man",
+      "author": "Фёдор Достоевский",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Подробное обсуждение самоубийства.",
+        "en": "Detailed discussion of suicide."
+      },
+      "ruChapters": 5,
+      "enChapters": 5,
+      "ruWords": 7283,
+      "enWords": 8633
+    },
+    {
+      "id": "LM-055",
+      "titleRu": "Бретёр",
+      "titleEn": "The Duellist",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 11,
+      "enChapters": 10,
+      "ruWords": 12591,
+      "enWords": 16805
+    },
+    {
+      "id": "LM-056",
+      "titleRu": "Бригадир",
+      "titleEn": "The Brigadier",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 16,
+      "enChapters": 15,
+      "ruWords": 6172,
+      "enWords": 8422
+    },
+    {
+      "id": "LM-057",
+      "titleRu": "Вешние воды",
+      "titleEn": "The Torrents of Spring",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 45,
+      "enChapters": 51,
+      "ruWords": 39116,
+      "enWords": 50825
+    },
+    {
+      "id": "LM-058",
+      "titleRu": "Дворянское гнездо",
+      "titleEn": "A House of Gentlefolk",
+      "author": "Иван Тургенев",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 46,
+      "enChapters": 46,
+      "ruWords": 47186,
+      "enWords": 62782
+    },
+    {
+      "id": "LM-059",
+      "titleRu": "Дневник лишнего человека",
+      "titleEn": "The Diary of a Superfluous Man",
+      "author": "Иван Тургенев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 13,
+      "ruWords": 15710,
+      "enWords": 20943
+    },
+    {
+      "id": "LM-060",
+      "titleRu": "Довольно",
+      "titleEn": "Enough",
+      "author": "Иван Тургенев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 16,
+      "enChapters": 18,
+      "ruWords": 3087,
+      "enWords": 3885
+    },
+    {
+      "id": "LM-061",
+      "titleRu": "Дым",
+      "titleEn": "Smoke",
+      "author": "Иван Тургенев",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 28,
+      "enChapters": 30,
+      "ruWords": 49656,
+      "enWords": 67109
+    },
+    {
+      "id": "LM-062",
+      "titleRu": "Жид",
+      "titleEn": "The Jew",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4363,
+      "enWords": 5884
+    },
+    {
+      "id": "LM-063",
+      "titleRu": "Муму",
+      "titleEn": "Mumu",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 8509,
+      "enWords": 11809
+    },
+    {
+      "id": "LM-064",
+      "titleRu": "Накануне",
+      "titleEn": "On the Eve",
+      "author": "Иван Тургенев",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 35,
+      "enChapters": 36,
+      "ruWords": 43958,
+      "enWords": 60423
+    },
+    {
+      "id": "LM-065",
+      "titleRu": "Несчастная",
+      "titleEn": "An Unhappy Girl",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 28,
+      "enChapters": 28,
+      "ruWords": 24134,
+      "enWords": 31136
+    },
+    {
+      "id": "LM-066",
+      "titleRu": "Отцы и дети",
+      "titleEn": "Fathers and Children",
+      "author": "Иван Тургенев",
+      "genre": "Роман",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 28,
+      "enChapters": 28,
+      "ruWords": 54796,
+      "enWords": 72994
+    },
+    {
+      "id": "LM-067",
+      "titleRu": "Первая любовь",
+      "titleEn": "First Love",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 22,
+      "enChapters": 22,
+      "ruWords": 18741,
+      "enWords": 24413
+    },
+    {
+      "id": "LM-068",
+      "titleRu": "Песнь торжествующей любви",
+      "titleEn": "The Song of Triumphant Love",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Сексуальное принуждение и тревожные сцены.",
+        "en": "Sexual coercion and disturbing scenes."
+      },
+      "ruChapters": 13,
+      "enChapters": 14,
+      "ruWords": 6098,
+      "enWords": 8084
+    },
+    {
+      "id": "LM-069",
+      "titleRu": "Петушков",
+      "titleEn": "Pyetushkov",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 11,
+      "enChapters": 11,
+      "ruWords": 10630,
+      "enWords": 14643
+    },
+    {
+      "id": "LM-070",
+      "titleRu": "После смерти (Клара Милич)",
+      "titleEn": "Clara Militch",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 18,
+      "enChapters": 18,
+      "ruWords": 16419,
+      "enWords": 21391
+    },
+    {
+      "id": "LM-071",
+      "titleRu": "Призраки",
+      "titleEn": "Phantoms",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 25,
+      "enChapters": 25,
+      "ruWords": 8183,
+      "enWords": 10904
+    },
+    {
+      "id": "LM-072",
+      "titleRu": "Пунин и Бабурин",
+      "titleEn": "Punin and Baburin",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 16050,
+      "enWords": 21890
+    },
+    {
+      "id": "LM-073",
+      "titleRu": "Рудин",
+      "titleEn": "Rudin",
+      "author": "Иван Тургенев",
+      "genre": "Роман",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 13,
+      "enChapters": 16,
+      "ruWords": 35763,
+      "enWords": 50979
+    },
+    {
+      "id": "LM-074",
+      "titleRu": "Сон",
+      "titleEn": "The Dream",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Сексуальное насилие и тяжёлые воспоминания.",
+        "en": "Sexual violence and distressing memories."
+      },
+      "ruChapters": 18,
+      "enChapters": 17,
+      "ruWords": 5635,
+      "enWords": 7322
+    },
+    {
+      "id": "LM-075",
+      "titleRu": "Странная история",
+      "titleEn": "A Strange Story",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 6203,
+      "enWords": 8382
+    },
+    {
+      "id": "LM-076",
+      "titleRu": "Три портрета",
+      "titleEn": "Three Portraits",
+      "author": "Иван Тургенев",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 8298,
+      "enWords": 10929
+    },
+    {
+      "id": "LM-077",
+      "titleRu": "Вечер накануне Ивана Купала",
+      "titleEn": "St. John's Eve",
+      "author": "Николай Гоголь",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4967,
+      "enWords": 6687
+    },
+    {
+      "id": "LM-078",
+      "titleRu": "Майская ночь, или Утопленница",
+      "titleEn": "A May Night, or the Drowned Maiden",
+      "author": "Николай Гоголь",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 6,
+      "enChapters": 6,
+      "ruWords": 8302,
+      "enWords": 10007
+    },
+    {
+      "id": "LM-079",
+      "titleRu": "Мёртвые души",
+      "titleEn": "Dead Souls",
+      "author": "Николай Гоголь",
+      "genre": "Роман",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 17,
+      "enChapters": 15,
+      "ruWords": 113871,
+      "enWords": 141295
+    },
+    {
+      "id": "LM-080",
+      "titleRu": "Нос",
+      "titleEn": "The Nose",
+      "author": "Николай Гоголь",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 3,
+      "enChapters": 4,
+      "ruWords": 7652,
+      "enWords": 9026
+    },
+    {
+      "id": "LM-081",
+      "titleRu": "Ночь перед Рождеством",
+      "titleEn": "The Night of Christmas Eve",
+      "author": "Николай Гоголь",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 13241,
+      "enWords": 18908
+    },
+    {
+      "id": "LM-082",
+      "titleRu": "Ревизор",
+      "titleEn": "The Inspector-General",
+      "author": "Николай Гоголь",
+      "genre": "Пьеса",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 58,
+      "enChapters": 54,
+      "ruWords": 21194,
+      "enWords": 31356
+    },
+    {
+      "id": "LM-083",
+      "titleRu": "Старосветские помещики",
+      "titleEn": "Old-Fashioned Farmers",
+      "author": "Николай Гоголь",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 7096,
+      "enWords": 8733
+    },
+    {
+      "id": "LM-084",
+      "titleRu": "Гробовщик",
+      "titleEn": "The Undertaker",
+      "author": "Александр Пушкин",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1985,
+      "enWords": 2653
+    },
+    {
+      "id": "LM-085",
+      "titleRu": "Капитанская дочка",
+      "titleEn": "The Captain's Daughter",
+      "author": "Александр Пушкин",
+      "genre": "Роман",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 14,
+      "enChapters": 14,
+      "ruWords": 32877,
+      "enWords": 38962
+    },
+    {
+      "id": "LM-086",
+      "titleRu": "Запечатленный ангел",
+      "titleEn": "The Sealed Angel",
+      "author": "Николай Лесков",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 16,
+      "enChapters": 16,
+      "ruWords": 20324,
+      "enWords": 25702
+    },
+    {
+      "id": "LM-087",
+      "titleRu": "Левша",
+      "titleEn": "The Steel Flea",
+      "author": "Николай Лесков",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 20,
+      "enChapters": 20,
+      "ruWords": 8917,
+      "enWords": 12672
+    },
+    {
+      "id": "LM-088",
+      "titleRu": "Леди Макбет Мценского уезда",
+      "titleEn": "The Lady Macbeth of the Mzinsk District",
+      "author": "Николай Лесков",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Убийства, в том числе ребёнка, и сексуальные отношения.",
+        "en": "Murders, including a child’s death, and sexual relationships."
+      },
+      "ruChapters": 15,
+      "enChapters": 15,
+      "ruWords": 13374,
+      "enWords": 17482
+    },
+    {
+      "id": "LM-089",
+      "titleRu": "Человек на часах",
+      "titleEn": "The Sentry",
+      "author": "Николай Лесков",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 18,
+      "enChapters": 18,
+      "ruWords": 5009,
+      "enWords": 6846
+    },
+    {
+      "id": "LM-090",
+      "titleRu": "Четыре дня",
+      "titleEn": "Four Days",
+      "author": "Всеволод Гаршин",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3601,
+      "enWords": 5053
+    },
+    {
+      "id": "LM-091",
+      "titleRu": "Ангелочек",
+      "titleEn": "The Little Angel",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 3,
+      "enChapters": 3,
+      "ruWords": 3809,
+      "enWords": 5507
+    },
+    {
+      "id": "LM-092",
+      "titleRu": "Баргамот и Гараська",
+      "titleEn": "Bargamot and Garaska",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2546,
+      "enWords": 3548
+    },
+    {
+      "id": "LM-093",
+      "titleRu": "Бен-Товит",
+      "titleEn": "On the Day of the Crucifixion",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1115,
+      "enWords": 1494
+    },
+    {
+      "id": "LM-094",
+      "titleRu": "В подвале",
+      "titleEn": "In the Basement",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 2,
+      "enChapters": 2,
+      "ruWords": 3055,
+      "enWords": 4165
+    },
+    {
+      "id": "LM-095",
+      "titleRu": "Город",
+      "titleEn": "The City",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2169,
+      "enWords": 2900
+    },
+    {
+      "id": "LM-096",
+      "titleRu": "Друг",
+      "titleEn": "The Friend",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1929,
+      "enWords": 2752
+    },
+    {
+      "id": "LM-097",
+      "titleRu": "Из рассказа, который никогда не будет окончен",
+      "titleEn": "A Story Which Will Never Be Finished",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1460,
+      "enWords": 1957
+    },
+    {
+      "id": "LM-098",
+      "titleRu": "Кусака",
+      "titleEn": "Snapper",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 5,
+      "enChapters": 4,
+      "ruWords": 2142,
+      "enWords": 2930
+    },
+    {
+      "id": "LM-099",
+      "titleRu": "Молчание",
+      "titleEn": "Silence",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Самоубийство и тяжёлая семейная утрата.",
+        "en": "Suicide and traumatic family bereavement."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 3813,
+      "enWords": 5111
+    },
+    {
+      "id": "LM-100",
+      "titleRu": "На станции",
+      "titleEn": "At the Roadside Station",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1203,
+      "enWords": 1778
+    },
+    {
+      "id": "LM-101",
+      "titleRu": "Набат",
+      "titleEn": "The Tocsin",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 3,
+      "enChapters": 3,
+      "ruWords": 1703,
+      "enWords": 2311
+    },
+    {
+      "id": "LM-102",
+      "titleRu": "Нет прощения",
+      "titleEn": "The Spy",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 5519,
+      "enWords": 5448
+    },
+    {
+      "id": "LM-103",
+      "titleRu": "Оригинальный человек",
+      "titleEn": "An Original",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2816,
+      "enWords": 3543
+    },
+    {
+      "id": "LM-104",
+      "titleRu": "Петька на даче",
+      "titleEn": "Petka at the Bungalow",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2986,
+      "enWords": 4192
+    },
+    {
+      "id": "LM-105",
+      "titleRu": "Предстояла кража",
+      "titleEn": "The Burglar",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2018,
+      "enWords": 2708
+    },
+    {
+      "id": "LM-106",
+      "titleRu": "Прекрасна жизнь для воскресших",
+      "titleEn": "Stepping-Stones",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 941,
+      "enWords": 1213
+    },
+    {
+      "id": "LM-107",
+      "titleRu": "Рассказ змеи о том, как у неё появились ядовитые зубы",
+      "titleEn": "The Serpent's Story",
+      "author": "Леонид Андреев",
+      "genre": "Проза",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1276,
+      "enWords": 1730
+    },
+    {
+      "id": "LM-108",
+      "titleRu": "Смех",
+      "titleEn": "Laughter",
+      "author": "Леонид Андреев",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 1388,
+      "enWords": 1843
+    },
+    {
+      "id": "LM-109",
+      "titleRu": "Агафья",
+      "titleEn": "Agafya",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3005,
+      "enWords": 4102
+    },
+    {
+      "id": "LM-110",
+      "titleRu": "Альбом",
+      "titleEn": "The Album",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 571,
+      "enWords": 774
+    },
+    {
+      "id": "LM-111",
+      "titleRu": "Анюта",
+      "titleEn": "Anyuta",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1158,
+      "enWords": 1591
+    },
+    {
+      "id": "LM-112",
+      "titleRu": "Аптекарша",
+      "titleEn": "The Chemist's Wife",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1400,
+      "enWords": 2007
+    },
+    {
+      "id": "LM-113",
+      "titleRu": "Ариадна",
+      "titleEn": "Ariadne",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 8356,
+      "enWords": 10611
+    },
+    {
+      "id": "LM-114",
+      "titleRu": "Архиерей",
+      "titleEn": "The Bishop",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 4686,
+      "enWords": 6416
+    },
+    {
+      "id": "LM-115",
+      "titleRu": "Бабы",
+      "titleEn": "Peasant Wives",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3937,
+      "enWords": 5878
+    },
+    {
+      "id": "LM-116",
+      "titleRu": "Беглец",
+      "titleEn": "The Runaway",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2104,
+      "enWords": 2981
+    },
+    {
+      "id": "LM-117",
+      "titleRu": "Беда",
+      "titleEn": "In Trouble",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1887,
+      "enWords": 2545
+    },
+    {
+      "id": "LM-118",
+      "titleRu": "Без заглавия",
+      "titleEn": "A Story Without a Title",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1263,
+      "enWords": 1680
+    },
+    {
+      "id": "LM-119",
+      "titleRu": "Белолобый",
+      "titleEn": "Whitebrow",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 6,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1661,
+      "enWords": 2259
+    },
+    {
+      "id": "LM-120",
+      "titleRu": "Брожение умов",
+      "titleEn": "Minds in Ferment",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 973,
+      "enWords": 1401
+    },
+    {
+      "id": "LM-121",
+      "titleRu": "В Москве на Трубной площади",
+      "titleEn": "The Bird Market",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1119,
+      "enWords": 1587
+    },
+    {
+      "id": "LM-122",
+      "titleRu": "В овраге",
+      "titleEn": "In the Ravine",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Насилие над ребёнком и тяжёлая семейная драма.",
+        "en": "Violence against a child and a distressing family drama."
+      },
+      "ruChapters": 9,
+      "enChapters": 9,
+      "ruWords": 11704,
+      "enWords": 16458
+    },
+    {
+      "id": "LM-123",
+      "titleRu": "В родном углу",
+      "titleEn": "At Home",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 3,
+      "enChapters": 3,
+      "ruWords": 3588,
+      "enWords": 4969
+    },
+    {
+      "id": "LM-124",
+      "titleRu": "В сарае",
+      "titleEn": "In the Coach House",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1516,
+      "enWords": 2317
+    },
+    {
+      "id": "LM-125",
+      "titleRu": "В суде",
+      "titleEn": "On Trial",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1883,
+      "enWords": 2275
+    },
+    {
+      "id": "LM-126",
+      "titleRu": "В усадьбе",
+      "titleEn": "At a Country House",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2494,
+      "enWords": 3352
+    },
+    {
+      "id": "LM-127",
+      "titleRu": "В цирульне",
+      "titleEn": "At the Barber's",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 864,
+      "enWords": 1278
+    },
+    {
+      "id": "LM-128",
+      "titleRu": "Ванька",
+      "titleEn": "Vanka",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1158,
+      "enWords": 1660
+    },
+    {
+      "id": "LM-129",
+      "titleRu": "Ведьма",
+      "titleEn": "The Witch",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3460,
+      "enWords": 4801
+    },
+    {
+      "id": "LM-130",
+      "titleRu": "Верочка",
+      "titleEn": "Verotchka",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3832,
+      "enWords": 5022
+    },
+    {
+      "id": "LM-131",
+      "titleRu": "Вишнёвый сад",
+      "titleEn": "The Cherry Orchard",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 13101,
+      "enWords": 18026
+    },
+    {
+      "id": "LM-132",
+      "titleRu": "Володя",
+      "titleEn": "Volodya",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Самоубийство подростка.",
+        "en": "Teenage suicide."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3777,
+      "enWords": 5038
+    },
+    {
+      "id": "LM-133",
+      "titleRu": "Володя большой и Володя маленький",
+      "titleEn": "The Two Volodyas",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3663,
+      "enWords": 4688
+    },
+    {
+      "id": "LM-134",
+      "titleRu": "Воры",
+      "titleEn": "The Horse-Stealers",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4850,
+      "enWords": 6733
+    },
+    {
+      "id": "LM-135",
+      "titleRu": "Горе",
+      "titleEn": "Grief",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1575,
+      "enWords": 2285
+    },
+    {
+      "id": "LM-136",
+      "titleRu": "Гриша",
+      "titleEn": "Grisha",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 900,
+      "enWords": 1234
+    },
+    {
+      "id": "LM-137",
+      "titleRu": "Гусев",
+      "titleEn": "Gusev",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 5,
+      "enChapters": 5,
+      "ruWords": 3826,
+      "enWords": 5428
+    },
+    {
+      "id": "LM-138",
+      "titleRu": "Дама с собачкой",
+      "titleEn": "The Lady with the Dog",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 5152,
+      "enWords": 6698
+    },
+    {
+      "id": "LM-139",
+      "titleRu": "День за городом",
+      "titleEn": "A Day in the Country",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1703,
+      "enWords": 2406
+    },
+    {
+      "id": "LM-140",
+      "titleRu": "Детвора",
+      "titleEn": "Children",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 6,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1451,
+      "enWords": 1975
+    },
+    {
+      "id": "LM-141",
+      "titleRu": "Дом с мезонином",
+      "titleEn": "An Artist's Story",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 5673,
+      "enWords": 7285
+    },
+    {
+      "id": "LM-142",
+      "titleRu": "Дома",
+      "titleEn": "Home",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2783,
+      "enWords": 3669
+    },
+    {
+      "id": "LM-143",
+      "titleRu": "Дорогие уроки",
+      "titleEn": "Expensive Lessons",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1912,
+      "enWords": 2390
+    },
+    {
+      "id": "LM-144",
+      "titleRu": "Дочь Альбиона",
+      "titleEn": "A Daughter of Albion",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1035,
+      "enWords": 1516
+    },
+    {
+      "id": "LM-145",
+      "titleRu": "Душечка",
+      "titleEn": "The Darling",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3880,
+      "enWords": 4927
+    },
+    {
+      "id": "LM-146",
+      "titleRu": "Дуэль",
+      "titleEn": "The Duel",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 21,
+      "enChapters": 21,
+      "ruWords": 30710,
+      "enWords": 40713
+    },
+    {
+      "id": "LM-147",
+      "titleRu": "Дядя Ваня",
+      "titleEn": "Uncle Vanya",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 12693,
+      "enWords": 16844
+    },
+    {
+      "id": "LM-148",
+      "titleRu": "Егерь",
+      "titleEn": "The Huntsman",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1261,
+      "enWords": 1766
+    },
+    {
+      "id": "LM-149",
+      "titleRu": "Живой товар",
+      "titleEn": "A Living Chattel",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 3,
+      "enChapters": 3,
+      "ruWords": 9846,
+      "enWords": 13599
+    },
+    {
+      "id": "LM-150",
+      "titleRu": "Житейская мелочь",
+      "titleEn": "A Trifle from Real Life",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1504,
+      "enWords": 1956
+    },
+    {
+      "id": "LM-151",
+      "titleRu": "Загадочная натура",
+      "titleEn": "An Enigmatic Nature",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 589,
+      "enWords": 812
+    },
+    {
+      "id": "LM-152",
+      "titleRu": "Зеркало",
+      "titleEn": "The Looking-Glass",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1189,
+      "enWords": 1576
+    },
+    {
+      "id": "LM-153",
+      "titleRu": "Зиночка",
+      "titleEn": "Zinotchka",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1808,
+      "enWords": 2374
+    },
+    {
+      "id": "LM-154",
+      "titleRu": "Злой мальчик",
+      "titleEn": "A Naughty Boy",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 677,
+      "enWords": 907
+    },
+    {
+      "id": "LM-155",
+      "titleRu": "Злоумышленник",
+      "titleEn": "A Malefactor",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1074,
+      "enWords": 1471
+    },
+    {
+      "id": "LM-156",
+      "titleRu": "Знакомый мужчина",
+      "titleEn": "A Gentleman Friend",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1010,
+      "enWords": 1344
+    },
+    {
+      "id": "LM-157",
+      "titleRu": "Иван Матвеич",
+      "titleEn": "Ivan Matveyitch",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1483,
+      "enWords": 2100
+    },
+    {
+      "id": "LM-158",
+      "titleRu": "Ионыч",
+      "titleEn": "Ionitch",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 5,
+      "enChapters": 5,
+      "ruWords": 5419,
+      "enWords": 7080
+    },
+    {
+      "id": "LM-159",
+      "titleRu": "Каштанка",
+      "titleEn": "Kashtanka",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 6,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "ruChapters": 7,
+      "enChapters": 7,
+      "ruWords": 5827,
+      "enWords": 7643
+    },
+    {
+      "id": "LM-160",
+      "titleRu": "Клевета",
+      "titleEn": "A Slander",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1081,
+      "enWords": 1468
+    },
+    {
+      "id": "LM-161",
+      "titleRu": "Княгиня",
+      "titleEn": "The Princess",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3689,
+      "enWords": 4844
+    },
+    {
+      "id": "LM-162",
+      "titleRu": "Кошмар",
+      "titleEn": "A Nightmare",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3954,
+      "enWords": 5372
+    },
+    {
+      "id": "LM-163",
+      "titleRu": "Красавицы",
+      "titleEn": "Two Beautiful Girls",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 2,
+      "enChapters": 2,
+      "ruWords": 2538,
+      "enWords": 3344
+    },
+    {
+      "id": "LM-164",
+      "titleRu": "Кто виноват?",
+      "titleEn": "Who Was To Blame?",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1009,
+      "enWords": 1394
+    },
+    {
+      "id": "LM-165",
+      "titleRu": "Кухарка женится",
+      "titleEn": "The Cook's Wedding",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1410,
+      "enWords": 1956
+    },
+    {
+      "id": "LM-166",
+      "titleRu": "Лебединая песня",
+      "titleEn": "The Swan Song",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 1,
+      "ruWords": 1915,
+      "enWords": 2701
+    },
+    {
+      "id": "LM-167",
+      "titleRu": "Лошадиная фамилия",
+      "titleEn": "A Horsey Name",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 911,
+      "enWords": 1248
+    },
+    {
+      "id": "LM-168",
+      "titleRu": "Мальчики",
+      "titleEn": "Boys",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1808,
+      "enWords": 2414
+    },
+    {
+      "id": "LM-169",
+      "titleRu": "Мёртвое тело",
+      "titleEn": "A Dead Body",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1213,
+      "enWords": 1830
+    },
+    {
+      "id": "LM-170",
+      "titleRu": "Мечты",
+      "titleEn": "Dreams",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2513,
+      "enWords": 3513
+    },
+    {
+      "id": "LM-171",
+      "titleRu": "Мороз",
+      "titleEn": "Frost",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1762,
+      "enWords": 2624
+    },
+    {
+      "id": "LM-172",
+      "titleRu": "Моя жизнь",
+      "titleEn": "My Life",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 20,
+      "enChapters": 20,
+      "ruWords": 28789,
+      "enWords": 38097
+    },
+    {
+      "id": "LM-173",
+      "titleRu": "Мститель",
+      "titleEn": "An Avenger",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1356,
+      "enWords": 1847
+    },
+    {
+      "id": "LM-174",
+      "titleRu": "Муж",
+      "titleEn": "The Husband",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1414,
+      "enWords": 1890
+    },
+    {
+      "id": "LM-175",
+      "titleRu": "Мужики",
+      "titleEn": "Peasants",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 9,
+      "enChapters": 9,
+      "ruWords": 9311,
+      "enWords": 13102
+    },
+    {
+      "id": "LM-176",
+      "titleRu": "На большой дороге",
+      "titleEn": "On the High Road",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 7,
+      "enChapters": 1,
+      "ruWords": 5382,
+      "enWords": 7962
+    },
+    {
+      "id": "LM-177",
+      "titleRu": "На кладбище",
+      "titleEn": "In the Graveyard",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 601,
+      "enWords": 908
+    },
+    {
+      "id": "LM-178",
+      "titleRu": "На подводе",
+      "titleEn": "A Journey By Cart",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2494,
+      "enWords": 3648
+    },
+    {
+      "id": "LM-179",
+      "titleRu": "На пути",
+      "titleEn": "On the Road",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4852,
+      "enWords": 6628
+    },
+    {
+      "id": "LM-180",
+      "titleRu": "На святках",
+      "titleEn": "At Christmas Time",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 2,
+      "enChapters": 1,
+      "ruWords": 1333,
+      "enWords": 1894
+    },
+    {
+      "id": "LM-181",
+      "titleRu": "На страстной неделе",
+      "titleEn": "In Passion Week",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1410,
+      "enWords": 1903
+    },
+    {
+      "id": "LM-182",
+      "titleRu": "Накануне поста",
+      "titleEn": "Shrove Tuesday",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1327,
+      "enWords": 1909
+    },
+    {
+      "id": "LM-183",
+      "titleRu": "Налим",
+      "titleEn": "The Fish",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1300,
+      "enWords": 2012
+    },
+    {
+      "id": "LM-184",
+      "titleRu": "Нахлебники",
+      "titleEn": "The Dependents",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1715,
+      "enWords": 2444
+    },
+    {
+      "id": "LM-185",
+      "titleRu": "Не в духе",
+      "titleEn": "Out of Sorts",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 504,
+      "enWords": 751
+    },
+    {
+      "id": "LM-186",
+      "titleRu": "Ненастье",
+      "titleEn": "Bad Weather",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1401,
+      "enWords": 1935
+    },
+    {
+      "id": "LM-187",
+      "titleRu": "Несчастье",
+      "titleEn": "Misfortune",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3848,
+      "enWords": 5073
+    },
+    {
+      "id": "LM-188",
+      "titleRu": "Нищий",
+      "titleEn": "The Beggar",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1495,
+      "enWords": 2066
+    },
+    {
+      "id": "LM-189",
+      "titleRu": "Новая дача",
+      "titleEn": "The New Villa",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 5,
+      "enChapters": 5,
+      "ruWords": 4094,
+      "enWords": 5711
+    },
+    {
+      "id": "LM-190",
+      "titleRu": "О любви",
+      "titleEn": "About Love",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3080,
+      "enWords": 3887
+    },
+    {
+      "id": "LM-191",
+      "titleRu": "Обыватели",
+      "titleEn": "Aborigines",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1705,
+      "enWords": 2345
+    },
+    {
+      "id": "LM-192",
+      "titleRu": "Огни",
+      "titleEn": "Lights",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 11847,
+      "enWords": 15441
+    },
+    {
+      "id": "LM-193",
+      "titleRu": "Отец",
+      "titleEn": "A Father",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2244,
+      "enWords": 3089
+    },
+    {
+      "id": "LM-194",
+      "titleRu": "Отец семейства",
+      "titleEn": "The Head of the Family",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1101,
+      "enWords": 1492
+    },
+    {
+      "id": "LM-195",
+      "titleRu": "Палата № 6",
+      "titleEn": "Ward No. 6",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 19,
+      "enChapters": 19,
+      "ruWords": 16206,
+      "enWords": 21727
+    },
+    {
+      "id": "LM-196",
+      "titleRu": "Певчие",
+      "titleEn": "Choristers",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1297,
+      "enWords": 1863
+    },
+    {
+      "id": "LM-197",
+      "titleRu": "Перекати-поле",
+      "titleEn": "Uprooted",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 4563,
+      "enWords": 6257
+    },
+    {
+      "id": "LM-198",
+      "titleRu": "Переполох",
+      "titleEn": "An Upheaval",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2031,
+      "enWords": 2784
+    },
+    {
+      "id": "LM-199",
+      "titleRu": "Печенег",
+      "titleEn": "The Petchenyeg",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3054,
+      "enWords": 4305
+    },
+    {
+      "id": "LM-200",
+      "titleRu": "Письмо",
+      "titleEn": "The Letter",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3320,
+      "enWords": 4644
+    },
+    {
+      "id": "LM-201",
+      "titleRu": "Полинька",
+      "titleEn": "Polinka",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1368,
+      "enWords": 1766
+    },
+    {
+      "id": "LM-202",
+      "titleRu": "После театра",
+      "titleEn": "After the Theatre",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 884,
+      "enWords": 1146
+    },
+    {
+      "id": "LM-203",
+      "titleRu": "Поцелуй",
+      "titleEn": "The Kiss",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 5560,
+      "enWords": 7554
+    },
+    {
+      "id": "LM-204",
+      "titleRu": "Почта",
+      "titleEn": "The Post",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1646,
+      "enWords": 2454
+    },
+    {
+      "id": "LM-205",
+      "titleRu": "Предложение",
+      "titleEn": "The Proposal",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 8,
+      "enChapters": 1,
+      "ruWords": 3314,
+      "enWords": 4508
+    },
+    {
+      "id": "LM-206",
+      "titleRu": "Приданое",
+      "titleEn": "The Trousseau",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1475,
+      "enWords": 2043
+    },
+    {
+      "id": "LM-207",
+      "titleRu": "Пустой случай",
+      "titleEn": "A Trivial Incident",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2952,
+      "enWords": 4006
+    },
+    {
+      "id": "LM-208",
+      "titleRu": "Радость",
+      "titleEn": "Bliss",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 474,
+      "enWords": 678
+    },
+    {
+      "id": "LM-209",
+      "titleRu": "Рассказ госпожи NN",
+      "titleEn": "Lady N—'s Story",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1331,
+      "enWords": 1698
+    },
+    {
+      "id": "LM-210",
+      "titleRu": "Рассказ неизвестного человека",
+      "titleEn": "An Anonymous Story",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Самоубийство, болезнь и взрослая семейная драма.",
+        "en": "Suicide, illness and an adult relationship drama."
+      },
+      "ruChapters": 18,
+      "enChapters": 18,
+      "ruWords": 23732,
+      "enWords": 30583
+    },
+    {
+      "id": "LM-211",
+      "titleRu": "Рассказ старшего садовника",
+      "titleEn": "The Head Gardener's Story",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1530,
+      "enWords": 1931
+    },
+    {
+      "id": "LM-212",
+      "titleRu": "Репетитор",
+      "titleEn": "The Tutor",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 751,
+      "enWords": 1082
+    },
+    {
+      "id": "LM-213",
+      "titleRu": "Сапожник и нечистая сила",
+      "titleEn": "The Shoemaker and the Devil",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2027,
+      "enWords": 2668
+    },
+    {
+      "id": "LM-214",
+      "titleRu": "Свадьба",
+      "titleEn": "The Wedding, by Anton Chéhov",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 2,
+      "enChapters": 1,
+      "ruWords": 3434,
+      "enWords": 4392
+    },
+    {
+      "id": "LM-215",
+      "titleRu": "Свирель",
+      "titleEn": "The Pipe",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2336,
+      "enWords": 3356
+    },
+    {
+      "id": "LM-216",
+      "titleRu": "Святою ночью",
+      "titleEn": "Easter Eve",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3162,
+      "enWords": 4328
+    },
+    {
+      "id": "LM-217",
+      "titleRu": "Скрипка Ротшильда",
+      "titleEn": "Rothschild's Fiddle",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3049,
+      "enWords": 4126
+    },
+    {
+      "id": "LM-218",
+      "titleRu": "Случай из практики",
+      "titleEn": "A Doctor's Visit",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3258,
+      "enWords": 4443
+    },
+    {
+      "id": "LM-219",
+      "titleRu": "Случай с классиком",
+      "titleEn": "A Classical Student",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 786,
+      "enWords": 1126
+    },
+    {
+      "id": "LM-220",
+      "titleRu": "Смерть чиновника",
+      "titleEn": "The Death of a Government Clerk",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 689,
+      "enWords": 972
+    },
+    {
+      "id": "LM-221",
+      "titleRu": "Событие",
+      "titleEn": "An Incident",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1424,
+      "enWords": 1976
+    },
+    {
+      "id": "LM-222",
+      "titleRu": "Соседи",
+      "titleEn": "Neighbours",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 5812,
+      "enWords": 7683
+    },
+    {
+      "id": "LM-223",
+      "titleRu": "Спать хочется",
+      "titleEn": "Sleepy",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Гибель младенца в результате насилия.",
+        "en": "The violent death of an infant."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1602,
+      "enWords": 2317
+    },
+    {
+      "id": "LM-224",
+      "titleRu": "Справка",
+      "titleEn": "An Inquiry",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 642,
+      "enWords": 893
+    },
+    {
+      "id": "LM-225",
+      "titleRu": "Старость",
+      "titleEn": "Old Age",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1422,
+      "enWords": 2096
+    },
+    {
+      "id": "LM-226",
+      "titleRu": "Старый дом",
+      "titleEn": "The Old House",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1793,
+      "enWords": 2467
+    },
+    {
+      "id": "LM-227",
+      "titleRu": "Степь",
+      "titleEn": "The Steppe",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 8,
+      "enChapters": 8,
+      "ruWords": 28368,
+      "enWords": 38678
+    },
+    {
+      "id": "LM-228",
+      "titleRu": "Страхи",
+      "titleEn": "Panic Fears",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1708,
+      "enWords": 2268
+    },
+    {
+      "id": "LM-229",
+      "titleRu": "Студент",
+      "titleEn": "The Student",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1138,
+      "enWords": 1507
+    },
+    {
+      "id": "LM-230",
+      "titleRu": "Супруга",
+      "titleEn": "The Helpmate",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2011,
+      "enWords": 2633
+    },
+    {
+      "id": "LM-231",
+      "titleRu": "Счастье",
+      "titleEn": "Happiness",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 2815,
+      "enWords": 3977
+    },
+    {
+      "id": "LM-232",
+      "titleRu": "Талант",
+      "titleEn": "Talent",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1211,
+      "enWords": 1674
+    },
+    {
+      "id": "LM-233",
+      "titleRu": "Темнота",
+      "titleEn": "Darkness",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1095,
+      "enWords": 1607
+    },
+    {
+      "id": "LM-234",
+      "titleRu": "Тина",
+      "titleEn": "Mire",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 2,
+      "enChapters": 2,
+      "ruWords": 5218,
+      "enWords": 7195
+    },
+    {
+      "id": "LM-235",
+      "titleRu": "Толстый и тонкий",
+      "titleEn": "Fat and Thin",
+      "author": "Антон Чехов",
+      "genre": "Проза",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 525,
+      "enWords": 758
+    },
+    {
+      "id": "LM-236",
+      "titleRu": "Три года",
+      "titleEn": "Three Years",
+      "author": "Антон Чехов",
+      "genre": "Повесть",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 17,
+      "enChapters": 17,
+      "ruWords": 27189,
+      "enWords": 35907
+    },
+    {
+      "id": "LM-237",
+      "titleRu": "Три сестры",
+      "titleEn": "The Three Sisters",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 16522,
+      "enWords": 22363
+    },
+    {
+      "id": "LM-238",
+      "titleRu": "У предводительши",
+      "titleEn": "The Marshal's Widow",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1061,
+      "enWords": 1536
+    },
+    {
+      "id": "LM-239",
+      "titleRu": "Убийство",
+      "titleEn": "The Murder",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 18,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Подробная сцена убийства и религиозный конфликт.",
+        "en": "A detailed murder scene and religious conflict."
+      },
+      "ruChapters": 7,
+      "enChapters": 7,
+      "ruWords": 9247,
+      "enWords": 12451
+    },
+    {
+      "id": "LM-240",
+      "titleRu": "Устрицы",
+      "titleEn": "Oysters",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1131,
+      "enWords": 1445
+    },
+    {
+      "id": "LM-241",
+      "titleRu": "Хамелеон",
+      "titleEn": "A Chameleon",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 901,
+      "enWords": 1253
+    },
+    {
+      "id": "LM-242",
+      "titleRu": "Хористка",
+      "titleEn": "The Chorus Girl",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1586,
+      "enWords": 2101
+    },
+    {
+      "id": "LM-243",
+      "titleRu": "Хорошие люди",
+      "titleEn": "Excellent People",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 3150,
+      "enWords": 4072
+    },
+    {
+      "id": "LM-244",
+      "titleRu": "Хороший конец",
+      "titleEn": "A Happy Ending",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1149,
+      "enWords": 1587
+    },
+    {
+      "id": "LM-245",
+      "titleRu": "Художество",
+      "titleEn": "Art",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1529,
+      "enWords": 2245
+    },
+    {
+      "id": "LM-246",
+      "titleRu": "Чайка",
+      "titleEn": "The Sea-Gull",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 4,
+      "enChapters": 4,
+      "ruWords": 13828,
+      "enWords": 19289
+    },
+    {
+      "id": "LM-247",
+      "titleRu": "Чёрный монах",
+      "titleEn": "The Black Monk",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 9,
+      "enChapters": 9,
+      "ruWords": 9750,
+      "enWords": 12732
+    },
+    {
+      "id": "LM-248",
+      "titleRu": "Шведская спичка",
+      "titleEn": "The Swedish Match",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 16,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "ruChapters": 2,
+      "enChapters": 2,
+      "ruWords": 5352,
+      "enWords": 7704
+    },
+    {
+      "id": "LM-249",
+      "titleRu": "Шуточка",
+      "titleEn": "A Joke",
+      "author": "Антон Чехов",
+      "genre": "Рассказ",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 1,
+      "enChapters": 1,
+      "ruWords": 1258,
+      "enWords": 1692
+    },
+    {
+      "id": "LM-250",
+      "titleRu": "Юбилей",
+      "titleEn": "The Jubilee, by Anton Chéhov",
+      "author": "Антон Чехов",
+      "genre": "Пьеса",
+      "ageRecommendation": 12,
+      "ageGuidanceBasis": "editorial-provisional",
+      "ageReason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "ruChapters": 2,
+      "enChapters": 1,
+      "ruWords": 3559,
+      "enWords": 4550
+    }
+  ]
+}

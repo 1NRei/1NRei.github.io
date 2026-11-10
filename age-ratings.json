@@ -1,0 +1,3044 @@
+{
+  "checkedDate": "2026-11-10",
+  "policy": "Preliminary editorial audience recommendations, identical for RU and EN. Not formal classification or a claim of complete expert content review. Default 16+ where no individual lower/higher audience recommendation has been recorded. Four publisher pages are reference editions only, not evidence for all 250 embedded editions.",
+  "counts": {
+    "6": 5,
+    "12": 97,
+    "16": 135,
+    "18": 13
+  },
+  "works": [
+    {
+      "id": "LM-001",
+      "title": "Анна Каренина",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [
+        {
+          "title": "АСТ · Анна Каренина",
+          "url": "https://ast.ru/book/anna-karenina-871092/",
+          "publishedAge": 16,
+          "isbn": "978-5-17-154615-1",
+          "scope": "Другое печатное издание; справочный ориентир, не маркировка файла LitMatch."
+        }
+      ],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-002",
+      "title": "Ассирийский царь Асархадон",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-003",
+      "title": "Война и мир",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-004",
+      "title": "Воскресение",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-005",
+      "title": "Вражье лепко, а божье крепко",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-006",
+      "title": "Где любовь, там и Бог",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-007",
+      "title": "Два гусара",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-008",
+      "title": "Два старика",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-009",
+      "title": "Девчонки умнее стариков",
+      "age": 6,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-010",
+      "title": "Для чего люди одурманиваются?",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-011",
+      "title": "Дорого стоит",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-012",
+      "title": "Дьявол",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Сексуальные отношения и трагическая развязка.",
+        "en": "Sexual relationships and a tragic ending."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-013",
+      "title": "Записки маркёра",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Самоубийство и азартные игры.",
+        "en": "Suicide and gambling."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-014",
+      "title": "Зерно с куриное яйцо",
+      "age": 6,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-015",
+      "title": "Ильяс",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-016",
+      "title": "Кавказский пленник",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-017",
+      "title": "Казаки",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-018",
+      "title": "Как чертенок краюшку выкупал",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-019",
+      "title": "Кающийся грешник",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-020",
+      "title": "Кому у кого учиться писать, крестьянским ребятам у нас или нам у крестьянских ребят?",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-021",
+      "title": "Крейцерова соната",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Сексуальные отношения и подробное описание убийства.",
+        "en": "Sexual relationships and a detailed account of murder."
+      },
+      "referenceEditions": [
+        {
+          "title": "Эксмо · Крейцерова соната",
+          "url": "https://eksmo.ru/book/kreytserova-sonata-ITD1318039/",
+          "publishedAge": 16,
+          "isbn": "978-5-04-179018-9",
+          "scope": "Сборник; рекомендация LitMatch 18+ намеренно строже, не скопирована у издателя."
+        }
+      ],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-022",
+      "title": "Крестник",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-023",
+      "title": "Люцерн",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-024",
+      "title": "Метель",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-025",
+      "title": "Много ли человеку земли нужно",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-026",
+      "title": "Одумайтесь",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-027",
+      "title": "Отрочество",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-028",
+      "title": "Работник Емельян и пустой барабан",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-029",
+      "title": "Рубка леса",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-030",
+      "title": "Свечка",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-031",
+      "title": "Семейное счастие",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-032",
+      "title": "Сказка об Иване-дураке",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-033",
+      "title": "Смерть Ивана Ильича",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-034",
+      "title": "Стыдно",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-035",
+      "title": "Суратская кофейная",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-036",
+      "title": "Три смерти",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-037",
+      "title": "Три старца",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-038",
+      "title": "Упустишь огонь — не потушишь",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-039",
+      "title": "Утро помещика",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-040",
+      "title": "Хозяин и работник",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-041",
+      "title": "Чем люди живы",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-042",
+      "title": "Что я видел во сне",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-043",
+      "title": "Юность",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-044",
+      "title": "Белые ночи",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-045",
+      "title": "Братья Карамазовы",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-046",
+      "title": "Господин Прохарчин",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-047",
+      "title": "Ёлка и свадьба",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-048",
+      "title": "Записки из подполья",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-049",
+      "title": "Игрок",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-050",
+      "title": "Маленький герой",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-051",
+      "title": "Ползунков",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-052",
+      "title": "Преступление и наказание",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-053",
+      "title": "Слабое сердце",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-054",
+      "title": "Сон смешного человека",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Подробное обсуждение самоубийства.",
+        "en": "Detailed discussion of suicide."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-055",
+      "title": "Бретёр",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-056",
+      "title": "Бригадир",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-057",
+      "title": "Вешние воды",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-058",
+      "title": "Дворянское гнездо",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-059",
+      "title": "Дневник лишнего человека",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-060",
+      "title": "Довольно",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-061",
+      "title": "Дым",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-062",
+      "title": "Жид",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-063",
+      "title": "Муму",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-064",
+      "title": "Накануне",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-065",
+      "title": "Несчастная",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-066",
+      "title": "Отцы и дети",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-067",
+      "title": "Первая любовь",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-068",
+      "title": "Песнь торжествующей любви",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Сексуальное принуждение и тревожные сцены.",
+        "en": "Sexual coercion and disturbing scenes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-069",
+      "title": "Петушков",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-070",
+      "title": "После смерти (Клара Милич)",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-071",
+      "title": "Призраки",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-072",
+      "title": "Пунин и Бабурин",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-073",
+      "title": "Рудин",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-074",
+      "title": "Сон",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Сексуальное насилие и тяжёлые воспоминания.",
+        "en": "Sexual violence and distressing memories."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-075",
+      "title": "Странная история",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-076",
+      "title": "Три портрета",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-077",
+      "title": "Вечер накануне Ивана Купала",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-078",
+      "title": "Майская ночь, или Утопленница",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-079",
+      "title": "Мёртвые души",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-080",
+      "title": "Нос",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-081",
+      "title": "Ночь перед Рождеством",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-082",
+      "title": "Ревизор",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-083",
+      "title": "Старосветские помещики",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-084",
+      "title": "Гробовщик",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-085",
+      "title": "Капитанская дочка",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-086",
+      "title": "Запечатленный ангел",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-087",
+      "title": "Левша",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-088",
+      "title": "Леди Макбет Мценского уезда",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Убийства, в том числе ребёнка, и сексуальные отношения.",
+        "en": "Murders, including a child’s death, and sexual relationships."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-089",
+      "title": "Человек на часах",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-090",
+      "title": "Четыре дня",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-091",
+      "title": "Ангелочек",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-092",
+      "title": "Баргамот и Гараська",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-093",
+      "title": "Бен-Товит",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-094",
+      "title": "В подвале",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-095",
+      "title": "Город",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-096",
+      "title": "Друг",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-097",
+      "title": "Из рассказа, который никогда не будет окончен",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-098",
+      "title": "Кусака",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-099",
+      "title": "Молчание",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Самоубийство и тяжёлая семейная утрата.",
+        "en": "Suicide and traumatic family bereavement."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-100",
+      "title": "На станции",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-101",
+      "title": "Набат",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-102",
+      "title": "Нет прощения",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-103",
+      "title": "Оригинальный человек",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-104",
+      "title": "Петька на даче",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-105",
+      "title": "Предстояла кража",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-106",
+      "title": "Прекрасна жизнь для воскресших",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-107",
+      "title": "Рассказ змеи о том, как у неё появились ядовитые зубы",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-108",
+      "title": "Смех",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-109",
+      "title": "Агафья",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-110",
+      "title": "Альбом",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-111",
+      "title": "Анюта",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-112",
+      "title": "Аптекарша",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-113",
+      "title": "Ариадна",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-114",
+      "title": "Архиерей",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-115",
+      "title": "Бабы",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-116",
+      "title": "Беглец",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-117",
+      "title": "Беда",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-118",
+      "title": "Без заглавия",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-119",
+      "title": "Белолобый",
+      "age": 6,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-120",
+      "title": "Брожение умов",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-121",
+      "title": "В Москве на Трубной площади",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-122",
+      "title": "В овраге",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Насилие над ребёнком и тяжёлая семейная драма.",
+        "en": "Violence against a child and a distressing family drama."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-123",
+      "title": "В родном углу",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-124",
+      "title": "В сарае",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-125",
+      "title": "В суде",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-126",
+      "title": "В усадьбе",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-127",
+      "title": "В цирульне",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-128",
+      "title": "Ванька",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-129",
+      "title": "Ведьма",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-130",
+      "title": "Верочка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-131",
+      "title": "Вишнёвый сад",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-132",
+      "title": "Володя",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Самоубийство подростка.",
+        "en": "Teenage suicide."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-133",
+      "title": "Володя большой и Володя маленький",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-134",
+      "title": "Воры",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-135",
+      "title": "Горе",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-136",
+      "title": "Гриша",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-137",
+      "title": "Гусев",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-138",
+      "title": "Дама с собачкой",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-139",
+      "title": "День за городом",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-140",
+      "title": "Детвора",
+      "age": 6,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-141",
+      "title": "Дом с мезонином",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-142",
+      "title": "Дома",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-143",
+      "title": "Дорогие уроки",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-144",
+      "title": "Дочь Альбиона",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-145",
+      "title": "Душечка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-146",
+      "title": "Дуэль",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-147",
+      "title": "Дядя Ваня",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-148",
+      "title": "Егерь",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-149",
+      "title": "Живой товар",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-150",
+      "title": "Житейская мелочь",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-151",
+      "title": "Загадочная натура",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-152",
+      "title": "Зеркало",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-153",
+      "title": "Зиночка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-154",
+      "title": "Злой мальчик",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-155",
+      "title": "Злоумышленник",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-156",
+      "title": "Знакомый мужчина",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-157",
+      "title": "Иван Матвеич",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-158",
+      "title": "Ионыч",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-159",
+      "title": "Каштанка",
+      "age": 6,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Короткая история для совместного или самостоятельного чтения; возможны грустные эпизоды.",
+        "en": "A short story for shared or independent reading; some scenes may be sad."
+      },
+      "referenceEditions": [
+        {
+          "title": "Махаон · Каштанка",
+          "url": "https://azbooka.ru/books/kashtanka-mvfe",
+          "publishedAge": 0,
+          "isbn": "978-5-389-28708-2",
+          "scope": "Иллюстрированное печатное издание; рекомендация LitMatch 6+ намеренно строже."
+        }
+      ],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-160",
+      "title": "Клевета",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-161",
+      "title": "Княгиня",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-162",
+      "title": "Кошмар",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-163",
+      "title": "Красавицы",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-164",
+      "title": "Кто виноват?",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-165",
+      "title": "Кухарка женится",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-166",
+      "title": "Лебединая песня",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-167",
+      "title": "Лошадиная фамилия",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-168",
+      "title": "Мальчики",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-169",
+      "title": "Мёртвое тело",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-170",
+      "title": "Мечты",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-171",
+      "title": "Мороз",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-172",
+      "title": "Моя жизнь",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-173",
+      "title": "Мститель",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-174",
+      "title": "Муж",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-175",
+      "title": "Мужики",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-176",
+      "title": "На большой дороге",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-177",
+      "title": "На кладбище",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-178",
+      "title": "На подводе",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-179",
+      "title": "На пути",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-180",
+      "title": "На святках",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-181",
+      "title": "На страстной неделе",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-182",
+      "title": "Накануне поста",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-183",
+      "title": "Налим",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-184",
+      "title": "Нахлебники",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-185",
+      "title": "Не в духе",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-186",
+      "title": "Ненастье",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-187",
+      "title": "Несчастье",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-188",
+      "title": "Нищий",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-189",
+      "title": "Новая дача",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-190",
+      "title": "О любви",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-191",
+      "title": "Обыватели",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-192",
+      "title": "Огни",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-193",
+      "title": "Отец",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-194",
+      "title": "Отец семейства",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-195",
+      "title": "Палата № 6",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [
+        {
+          "title": "Азбука · Палата № 6",
+          "url": "https://azbooka.ru/books/palata-6",
+          "publishedAge": 16,
+          "isbn": "978-5-389-23268-6",
+          "scope": "Сборник; ориентир для аудитории, не индивидуальная классификация нашего текста."
+        }
+      ],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-196",
+      "title": "Певчие",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-197",
+      "title": "Перекати-поле",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-198",
+      "title": "Переполох",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-199",
+      "title": "Печенег",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-200",
+      "title": "Письмо",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-201",
+      "title": "Полинька",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-202",
+      "title": "После театра",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-203",
+      "title": "Поцелуй",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-204",
+      "title": "Почта",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-205",
+      "title": "Предложение",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-206",
+      "title": "Приданое",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-207",
+      "title": "Пустой случай",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-208",
+      "title": "Радость",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-209",
+      "title": "Рассказ госпожи NN",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-210",
+      "title": "Рассказ неизвестного человека",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Самоубийство, болезнь и взрослая семейная драма.",
+        "en": "Suicide, illness and an adult relationship drama."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-211",
+      "title": "Рассказ старшего садовника",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-212",
+      "title": "Репетитор",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-213",
+      "title": "Сапожник и нечистая сила",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-214",
+      "title": "Свадьба",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-215",
+      "title": "Свирель",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-216",
+      "title": "Святою ночью",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-217",
+      "title": "Скрипка Ротшильда",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-218",
+      "title": "Случай из практики",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-219",
+      "title": "Случай с классиком",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-220",
+      "title": "Смерть чиновника",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-221",
+      "title": "Событие",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-222",
+      "title": "Соседи",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-223",
+      "title": "Спать хочется",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Гибель младенца в результате насилия.",
+        "en": "The violent death of an infant."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-224",
+      "title": "Справка",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-225",
+      "title": "Старость",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-226",
+      "title": "Старый дом",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-227",
+      "title": "Степь",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-228",
+      "title": "Страхи",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-229",
+      "title": "Студент",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-230",
+      "title": "Супруга",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-231",
+      "title": "Счастье",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-232",
+      "title": "Талант",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-233",
+      "title": "Темнота",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-234",
+      "title": "Тина",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-235",
+      "title": "Толстый и тонкий",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-236",
+      "title": "Три года",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-237",
+      "title": "Три сестры",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-238",
+      "title": "У предводительши",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-239",
+      "title": "Убийство",
+      "age": 18,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Подробная сцена убийства и религиозный конфликт.",
+        "en": "A detailed murder scene and religious conflict."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-240",
+      "title": "Устрицы",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-241",
+      "title": "Хамелеон",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-242",
+      "title": "Хористка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-243",
+      "title": "Хорошие люди",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-244",
+      "title": "Хороший конец",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-245",
+      "title": "Художество",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-246",
+      "title": "Чайка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-247",
+      "title": "Чёрный монах",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-248",
+      "title": "Шведская спичка",
+      "age": 16,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Взрослые социальные и психологические темы. Предварительный порог для подростковой и взрослой аудитории.",
+        "en": "Adult social and psychological themes. A preliminary recommendation for older teens and adults."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-249",
+      "title": "Шуточка",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    },
+    {
+      "id": "LM-250",
+      "title": "Юбилей",
+      "age": 12,
+      "basis": "editorial-provisional",
+      "reason": {
+        "ru": "Социальные и нравственные темы; отдельные тревожные или трагические эпизоды.",
+        "en": "Social and moral themes; some disturbing or tragic episodes."
+      },
+      "referenceEditions": [],
+      "checkedDate": "2026-11-10"
+    }
+  ]
+}
