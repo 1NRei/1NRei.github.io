@@ -936,7 +936,7 @@ const DEF = () => ({
   goal:20,chapterTime:true,bookProgress:true,pageTurn:'Page',resume:true,
   sync:false,syncLib:false,syncNotes:false,
   wifiOnly:true,reminders:true,recs:false,appUpdates:true,reminderTime:'8:00 PM',repeat:'Every day',
-  analytics:false,personalized:true,lang:'English',appTheme:'system',tapTranslate:true,tipTap:false
+  analytics:false,personalized:true,lang:'Русский',appTheme:'system',tapTranslate:true,tipTap:false
 });
 let S;
 try { S = Object.assign(DEF(), JSON.parse(localStorage.getItem('litmatch-proto') || '{}')); } catch(e) { S = DEF(); }
@@ -1073,28 +1073,15 @@ def('splash', {label:'Loading', html:() => `
   mount(){ clearTimeout(this._t); this._t = setTimeout(()=>{ if(curEntry().name==='splash') reset(!S.loggedIn ? 'signup' : S.onboarded === false ? 'onboard' : 'home'); }, 1700); }
 });
 
-def('signup', {label:'Sign up', html:(p={}) => {
-  const signin = p.mode==='signin';
-  return `<div class="scroll auth" style="padding-top:20px">
-    <div style="text-align:center"><svg width="66" height="64" viewBox="0 0 66 64" style="fill:var(--card);stroke:var(--ink)" stroke-width="1.4"><rect x="2" y="8" width="52" height="54" rx="4"/><rect x="6" y="5" width="52" height="54" rx="4"/><rect x="10" y="2" width="54" height="56" rx="4"/><path d="M52 4v20" stroke-width="2.4" stroke-linecap="round"/></svg></div>
-    <h1>${signin?'Welcome back':'Start reading more'}</h1>
-    <p class="lead">${signin?'Open your profile saved in this browser.':'Create a local profile to save your books and reading progress in this browser.'}</p>
-    <p class="local-note">This profile stays on this device. It does not sync with other devices.</p>
-    ${signin?'':`<label class="lbl" for="su-name">Name</label><input class="inp" id="su-name" placeholder="Your name" value="${esc(F.su_name||'')}" data-input="su_name">`}
-    <label class="lbl" for="su-email">Email</label><input class="inp" id="su-email" type="email" placeholder="Email address" value="${esc(F.su_email||'')}" data-input="su_email">
-    <label class="lbl" for="su-pw">Password</label>${pwField('su-pw','Enter password',F['su-pw']||'')}
-    ${signin?`<div style="margin-top:12px"><button class="link" data-act="toast" data-arg="Reset link sent to your email" style="font-size:13px">Forgot your password?</button></div>`:
-    `<div class="chk ${F.agree!==false?'on':''}" data-act="agree"><span class="box">${ic('check')}</span><span>I agree to the <button class="link" data-go="terms">Terms of Use</button> and <button class="link" data-go="policy">Privacy Policy</button>.</span></div>`}
-    <div class="err" id="su-err"></div>
-    <button class="btn primary" data-act="${signin?'signin':'signup'}" style="margin-top:${signin?20:4}px">${signin?'Sign in':'Create account'}</button>
-    <div class="or">or</div>
-    <div class="stack">
-      <button class="btn soft" data-act="social" data-arg="Apple">${ic('apple')} Continue with Apple</button>
-      <button class="btn soft" data-act="social" data-arg="Google"><b style="font:700 19px var(--sans)">G</b> Continue with Google</button>
-    </div>
-    <p style="text-align:center;font-size:14px;margin:22px 0 0">${signin?`New to LitMatch? <button class="link" data-act="mode" data-arg="signup">Create account</button>`:`Already have an account? <button class="link" data-act="mode" data-arg="signin">Sign in</button>`}</p>
-  </div>`;
-}});
+def('signup', {label:'Local profile', html:() =>   `<div class="scroll auth" style="padding-top:30px">
+    <h1>LitMatch</h1>
+    <p class="lead">${isRU()?'Начните читать':'Start reading'}</p>
+    <p class="local-note">${isRU()?'Книги, заметки и прогресс сохраняются только в этом браузере на этом устройстве.':'Your books, notes and progress are saved only in this browser on this device.'}</p>
+    <label class="lbl" for="su-name">${isRU()?'Как вас называть? (необязательно)':'Your name (optional)'}</label>
+    <input class="inp" id="su-name" maxlength="80" autocomplete="nickname" placeholder="${isRU()?'Читатель':'Reader'}" value="${esc(F.su_name??(S.user.name==='Reader'?'':S.user.name))}" data-input="su_name">
+    <button class="btn primary" data-act="signup" style="margin-top:24px">${isRU()?'Начать чтение':'Start reading'}</button>
+  </div>`
+});
 
 /* ---------- First launch: language & goal, then favourite genres ---------- */
 const GOALS = [[5,'5 minutes','A small daily habit'],[15,'15 minutes','Time for a few pages'],[30,'30 minutes','A longer reading session']];
@@ -1830,18 +1817,11 @@ const A = {
   agree(_, el){ F.agree = F.agree===false; el.classList.toggle('on', F.agree!==false); },
   mode(m){ F['su-pw']=''; stack[stack.length-1] = {name:'signup', arg:{mode:m}}; refresh(); },
   signup(){
-    const err = document.getElementById('su-err'), name=(F.su_name||'').trim(), email=(F.su_email||'').trim(), pw=F['su-pw']||'';
-    const msg = !name?'Please enter your name.':!/^\S+@\S+\.\S+$/.test(email)?'Please enter a valid email address.':pw.length<6?'Password must be at least 6 characters.':F.agree===false?'Please accept the Terms of Use and Privacy Policy.':'';
-    if (msg) { err.textContent = tr(msg); return; }
-    Object.assign(S, FRESH()); S.user = {...S.user, name, email, avatar:'initials', photo:null}; S.loggedIn = true; save(); F = {}; reset('splash');
+    const name=(F.su_name??(S.user.name==='Reader'?'':S.user.name)).trim().slice(0,80)||'Читатель';
+    S.user={...S.user,name};S.lang='Русский';S.loggedIn=true;save();F={};reset(S.onboarded?'home':'onboard');
   },
-  signin(){
-    const err = document.getElementById('su-err'), email=(F.su_email||'').trim();
-    if (!/^\S+@\S+\.\S+$/.test(email) || !(F['su-pw']||'')) { err.textContent = tr('Enter your email and password.'); return; }
-    if (email.toLowerCase() !== S.user.email.toLowerCase()) { S = {...DEF(), user:{...DEF().user, email}}; } // unknown email → demo reader
-    S.loggedIn = true; save(); F = {}; reset('splash'); setTimeout(()=>toast('Welcome back!'), 1900);
-  },
-  social(p){ S.loggedIn = true; save(); F = {}; reset('splash'); setTimeout(()=>toast(`Signed in with ${p}`), 1900); },
+  signin(){A.signup();},
+  social(){A.signup();},
   quiz(){ F.qStep = 0; F.qAns = []; showSheet('quiz'); },
   quizAns(v){ F.qAns = [...(F.qAns||[]), v]; F.qStep = (F.qStep||0)+1;
     if (F.qStep >= QUIZ.length) { S.quizDone = true; S.readerAgeGroup=F.qAns[0];adultAccess.clear();Object.entries(quizWeights(F.qAns)).forEach(([c,x]) => S.taste[c] = (S.taste[c]||0) + x/2); save(); }
