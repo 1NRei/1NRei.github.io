@@ -36,6 +36,13 @@ html{scroll-padding-top:140px}
 .header{position:sticky;top:0;z-index:5;background:var(--bg);isolation:isolate}
 .header::before{content:'';position:absolute;inset:0 auto 0 50%;width:100vw;transform:translateX(-50%);background:var(--bg);z-index:-1;pointer-events:none}
 @media(max-width:760px){html{scroll-padding-top:112px}}
+.header-actions{display:flex;align-items:center;gap:26px;min-width:0}
+.language-switch{display:flex;align-items:center;gap:3px;flex-shrink:0}
+.language-switch a{display:flex;align-items:center;justify-content:center;min-width:32px;min-height:44px;font:500 11px var(--mono);color:var(--muted);border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.language-switch a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
+.language-switch a:hover{color:var(--text)}
+html[lang="en"] .hero h1{font-size:clamp(56px,6.6vw,106px);letter-spacing:-.065em}
+@media(max-width:760px){.header-actions{grid-column:2;grid-row:1;gap:12px}.language-switch a{min-width:28px;font-size:10px}html[lang="en"] .hero h1{font-size:clamp(36px,9.8vw,70px)}.portfolio-page .header-actions{gap:12px}}
 /* Keep text and controls readable at real device sizes. */
 .hero-bottom{align-self:start}
 .hero-description{font-size:15px}
